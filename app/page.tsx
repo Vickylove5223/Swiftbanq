@@ -69,7 +69,7 @@ export default function Home() {
         {/* Card 1: Left */}
         <div className="hidden md:block absolute left-[2%] lg:left-[3%] xl:left-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
            <div className="relative w-full h-full">
-             <Image src="/images/hero-card-1.jpg" alt="Freelancer" fill className="object-cover" />
+             <Image src="/images/hero-card-1.jpg" alt="Freelancer" fill priority className="object-cover" />
              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
                <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
@@ -82,7 +82,7 @@ export default function Home() {
         {/* Card 2: Right */}
         <div className="hidden md:block absolute right-[2%] lg:right-[3%] xl:right-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
            <div className="relative w-full h-full">
-             <Image src="/images/ceo.jpg" alt="Engineer" fill className="object-cover" />
+             <Image src="/images/ceo.jpg" alt="Engineer" fill priority className="object-cover" />
              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
                <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
@@ -95,7 +95,7 @@ export default function Home() {
         {/* Card 3: Bottom Left */}
         <div className="hidden lg:block absolute left-[8%] xl:left-[12%] bottom-4 xl:bottom-8 w-36 h-36 xl:w-44 xl:h-44 border-2 border-white/80 z-10 hover:-translate-y-4 transition-transform duration-500 shadow-xl">
            <div className="relative w-full h-full">
-             <Image src="/invoice discounting.jpg" alt="Contractor" fill className="object-cover" />
+             <Image src="/invoice discounting.jpg" alt="Contractor" fill priority className="object-cover" />
              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
                <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
@@ -134,10 +134,6 @@ export default function Home() {
             </Link>
           </div>
           
-          <p className="mt-4 text-gray-300 text-xs sm:text-sm flex items-center justify-center gap-1.5 opacity-80 relative z-30">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield-check text-green-400 w-4 h-4"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-            Licensed and regulated by the CBN
-          </p>
 
           {/* Mobile Image Grid (visible only on small screens) */}
           <div className="md:hidden grid grid-cols-2 gap-3 sm:gap-4 mt-12 w-full max-w-sm mx-auto relative z-20">

@@ -53,23 +53,14 @@ export function ServiceHero({ title, subtitle, image, mockLabel, mockTags }: Ser
 
           {/* Right: Image + Mock Card */}
           <div className="w-full lg:w-1/2 flex flex-col items-end justify-end relative rounded-[2.5rem] overflow-hidden min-h-[420px] lg:min-h-[500px]">
-            {/* Background Image */}
-            {image.startsWith('http') ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={image}
-                alt={title}
-                className="absolute inset-0 w-full h-full object-cover object-center"
-              />
-            ) : (
-              <Image
-                src={image}
-                alt={title}
-                fill
-                className="object-cover object-center"
-                unoptimized
-              />
-            )}
+            {/* Background Image — priority since it's above the fold */}
+            <Image
+              src={image}
+              alt={title}
+              fill
+              priority
+              className="object-cover object-center"
+            />
 
             {/* Overlay gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />

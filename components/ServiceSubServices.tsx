@@ -67,7 +67,6 @@ export function ServiceSubServices({ subServices, title }: ServiceSubServicesPro
                   src={imageMapping[service.title] || '/images/hero-card-1.jpg'}
                   alt={service.title}
                   fill
-                  unoptimized
                   className="object-cover opacity-80"
                 />
               </div>
