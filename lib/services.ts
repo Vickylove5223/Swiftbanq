@@ -124,10 +124,10 @@ export const services: ServiceData[] = [
     id: 'lpo-financing',
     slug: 'lpo-financing',
     subServices: [
-      { title: 'LPO Finance', description: 'Direct capital to execute Local Purchase Orders from verified corporate and government buyers.' },
+      { title: 'LPO Finance', description: 'Direct capital to execute Local Purchase Orders from verified corporate and government institutions.' },
       { title: 'Supply Contracts', description: 'Funding to fulfill supply agreements and keep your supply chain moving without delays.' },
-      { title: 'Govt Contracts', description: 'Finance government procurement contracts with confidence — we handle the funding.' },
-      { title: 'Oil & Gas Contracts', description: 'Specialized financing for upstream and downstream Oil & Gas supply contracts.' },
+      { title: 'Govt Contracts', description: 'Finance government contracts with confidence — we handle the funding.' },
+      { title: 'Oil & Gas Contracts', description: 'Specialized financing for upstream and downstream Oil & Gas contracts.' },
     ],
     heroTitle: 'Execute Contracts with LPO Financing',
     heroSubtitle: 'Never lose a supply contract because of cash flow. We provide the capital you need to execute Local Purchase Orders smoothly.',
@@ -166,10 +166,10 @@ export const services: ServiceData[] = [
       },
       {
         title: 'Get your LPO Evaluated',
-        description: 'We quickly evaluate the contract and the issuing corporate organization.'
+        description: 'We quickly evaluate the contract and the employer.'
       },
       {
-        title: 'We Fund Suppliers',
+        title: 'We Provide Funding for LPO Execution',
         description: 'We make direct payments to your suppliers or vendors so you can deliver on the contract.'
       },
       {
@@ -208,8 +208,7 @@ export const services: ServiceData[] = [
     subServices: [
       { title: 'Leases', description: 'Finance assets through structured lease agreements with flexible buyout options at end of term.' },
       { title: 'Vehicle Acquisition', description: 'Acquire cars, delivery vans, or trucks for personal or business use with easy monthly payments.' },
-      { title: 'Equipment Acquisition', description: 'Procure office equipment, industrial machinery, and IT infrastructure without upfront capital.' },
-      { title: 'Building Acquisition', description: 'Finance the acquisition of commercial or business premises to establish or expand your operations.' },
+      { title: 'Equipment Acquisition', description: 'Procure office equipment, industrial machinery, medical equipment , IT infrastructure and other business assets without upfront capital.' },
     ],
     heroTitle: 'Acquire Assets without the Heavy Burden',
     heroSubtitle: 'From vehicles to specialized equipment, get what your business needs today and pay comfortably over time.',
@@ -330,12 +329,12 @@ export const services: ServiceData[] = [
         description: 'Get up to 70% of the invoice value within 48 hours. Once we have verified the invoice, the majority of the funds goes to your business account.'
       },
       {
-        title: 'Client pays later',
-        description: 'Your client pays the invoice directly to a domiciled bank account. We deduct our fee and remit the balance to you.'
+        title: 'Client(Employer) pays later',
+        description: 'Your client(Employer) pays the invoice directly to a domiciled bank account. We deduct our fee and remit the balance to you.'
       },
       {
         title: 'You Receive the Balance',
-        description: 'Once payment is confirmed, we deduct our small fee and remit the remaining balance to you.'
+        description: 'Once payment is confirmed, our principal repayment plus interest is deducted.'
       }
     ],
     testimonials: [
@@ -368,7 +367,7 @@ export const services: ServiceData[] = [
     slug: 'investments',
     subServices: [
       { title: 'Fixed Deposits', description: 'Secure investments with guaranteed returns over fixed tenures.' },
-      { title: 'Target Savings', description: 'Structured plans to help you save towards specific goals.' },
+      // { title: 'Target Savings', description: 'Structured plans to help you save towards specific goals.' },
       { title: 'Corporate Treasury', description: 'Portfolio management and treasury solutions for businesses.' }
     ],
     heroTitle: 'Start investing with as little as ₦100,000',

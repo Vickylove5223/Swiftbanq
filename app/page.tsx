@@ -67,7 +67,7 @@ export default function Home() {
         {/* Floating Cards Background */}
         
         {/* Card 1: Left */}
-        <div className="hidden md:block absolute left-[2%] lg:left-[3%] xl:left-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
+        {/* <div className="hidden md:block absolute left-[2%] lg:left-[3%] xl:left-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
            <div className="relative w-full h-full">
              <Image src="/images/hero-card-1.jpg" alt="Freelancer" fill priority className="object-cover" />
              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -77,7 +77,7 @@ export default function Home() {
                </span>
              </div>
            </div>
-        </div>
+        </div> */}
 
         {/* Card 2: Right */}
         <div className="hidden md:block absolute right-[2%] lg:right-[3%] xl:right-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
