@@ -19,13 +19,13 @@ export function Navbar() {
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const [isApplyModalOpen, setIsApplyModalOpen] = useState(false);
 
-  // The new piggyvest background is dark, so text must be white
-  const isLightHero = false;
+  // Home hero is now white, so its header uses dark text on a white bg
+  const isLightHero = isHome;
   const linkClass = isLightHero ? "text-brand-dark hover:text-gray-600" : "text-white hover:text-gray-300";
   const iconClass = isLightHero ? "text-brand-dark" : "text-white";
 
   return (
-    <header aria-label="Main navigation" className={`${isAbsoluteHeader ? 'absolute top-0 left-0 w-full z-50 bg-transparent' : 'bg-brand-dark w-full border-b border-gray-800 relative z-50'}`}>
+    <header aria-label="Main navigation" className={`${isHome ? 'absolute top-0 left-0 w-full z-50 bg-white border-b border-brand-dark/10' : isAbsoluteHeader ? 'absolute top-0 left-0 w-full z-50 bg-transparent' : 'bg-brand-dark w-full border-b border-gray-800 relative z-50'}`}>
       <a
         href="#main-content"
         style={{
@@ -62,7 +62,7 @@ export function Navbar() {
                 width={160}
                 height={40}
                 priority
-                className={`${isLightHero ? 'h-6 w-auto md:h-7 lg:h-8' : 'brightness-0 invert h-6 w-auto md:h-7 lg:h-8'}`}
+                  className={`${isLightHero ? 'h-6 w-auto md:h-7 lg:h-8' : 'brightness-0 invert h-6 w-auto md:h-7 lg:h-8'}`}
               />
             </Link>
           </div>

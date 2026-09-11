@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle2, Briefcase, Car, Smartphone, TrendingUp, Settings, Building, User, MessageCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Car, Smartphone, TrendingUp, MessageCircle } from 'lucide-react';
 import Image from 'next/image';
 import { FAQSection } from '@/components/FAQSection';
 import { HeroMockup } from '@/components/HeroMockup';
@@ -62,122 +62,42 @@ export default function Home() {
       />
       <div className="w-full">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] lg:min-h-[95vh] flex flex-col items-center justify-center pt-32 md:pt-40 lg:pt-48 pb-24 md:pb-32 lg:pb-40 overflow-hidden bg-brand-dark text-white px-4 lg:px-8">
-        
-        {/* Floating Cards Background */}
-        
-        {/* Card 1: Left */}
-        <div className="hidden md:block absolute left-[2%] lg:left-[3%] xl:left-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
-           <div className="relative w-full h-full">
-             <Image src="/images/hero-card-1.jpg" alt="Freelancer" fill priority className="object-cover" />
-             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-             <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
-               <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                 <Briefcase className="w-3 h-3 flex-shrink-0 text-brand-yellow" /> Freelancer
-               </span>
-             </div>
-           </div>
-        </div>
-
-        {/* Card 2: Right */}
-        <div className="hidden md:block absolute right-[2%] lg:right-[3%] xl:right-[5%] top-1/2 -translate-y-1/2 w-32 h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 border-2 border-white/80 z-10 hover:scale-105 transition-transform duration-500 shadow-xl">
-           <div className="relative w-full h-full">
-             <Image src="/images/ceo.jpg" alt="Engineer" fill priority className="object-cover" />
-             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-             <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
-               <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                 <Settings className="w-3 h-3 flex-shrink-0 text-brand-yellow" /> Engineer
-               </span>
-             </div>
-           </div>
-        </div>
-
-        {/* Card 3: Bottom Left */}
-        <div className="hidden lg:block absolute left-[8%] xl:left-[12%] bottom-4 xl:bottom-8 w-36 h-36 xl:w-44 xl:h-44 border-2 border-white/80 z-10 hover:-translate-y-4 transition-transform duration-500 shadow-xl">
-           <div className="relative w-full h-full">
-             <Image src="/invoice discounting.jpg" alt="Contractor" fill priority className="object-cover" />
-             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-             <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
-               <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                 <Building className="w-3 h-3 flex-shrink-0 text-brand-yellow" /> Contractor
-               </span>
-             </div>
-           </div>
-        </div>
-
-        {/* Card 4: Bottom Right */}
-        <div className="hidden lg:block absolute right-[8%] xl:right-[12%] bottom-4 xl:bottom-8 w-36 h-36 xl:w-44 xl:h-44 border-2 border-white/80 z-10 hover:-translate-y-4 transition-transform duration-500 shadow-xl">
-           <div className="relative w-full h-full">
-             <Image src="/images/hero-card-4.jpg" alt="Employee" fill className="object-cover" />
-             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-             <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 flex justify-center z-20">
-               <span className="bg-white text-brand-dark px-3 py-1 rounded-full font-bold text-xs flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                 <User className="w-3 h-3 flex-shrink-0 text-brand-yellow" /> Employee
-               </span>
-             </div>
-           </div>
-        </div>
-
-        {/* Main Center Content */}
-        <div className="w-full max-w-[600px] lg:max-w-[700px] xl:max-w-[800px] mx-auto px-4 relative z-20 text-center flex flex-col items-center mt-[-40px]">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-heading font-black text-white tracking-tighter leading-[1.1] sm:leading-[1] mb-8">
-            Borrow, or Invest <br className="hidden md:block" /> Wisely with Us.
+      <section className="relative flex flex-col items-center justify-center pt-24 md:pt-28 lg:pt-32 pb-0 overflow-hidden bg-white text-brand-dark px-4 lg:px-8">
+        {/* Main Content: headline left, subtext + CTAs right */}
+        <div className="w-full max-w-[1400px] mx-auto relative z-20 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-7xl xl:text-8xl font-heading font-black text-brand-dark tracking-tighter leading-[1.02] sm:leading-[0.92] text-left">
+            Borrow and <br /> Invest Wisely <br /> with Us.
           </h1>
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-6 w-full sm:w-auto relative z-30">
-            <ApplyNowButton className="px-8 py-4 rounded-full bg-brand-yellow text-brand-dark font-black hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-base sm:text-lg group">
-              Apply Now
-              <span className="bg-brand-dark text-brand-yellow w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center rounded-full transition-transform group-hover:translate-x-1 text-xs">→</span>
-            </ApplyNowButton>
-            <Link href="https://wa.me/2347086429380?text=Hi%20Swiftbanq!%20I%27d%20like%20to%20speak%20with%20your%20sales%20team%20about%20your%20financial%20services.%20Could%20you%20please%20assist%20me%3F" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full border border-white/30 text-white font-medium hover:bg-white/10 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-base sm:text-lg bg-white/5 backdrop-blur-sm group">
-              <MessageCircle className="w-5 h-5" /> Talk To Support
-            </Link>
-          </div>
-          
+          <div className="flex flex-col items-start lg:items-end gap-6 lg:pt-4">
+            <div className="flex flex-col items-start gap-6 max-w-md">
+              <p className="text-lg sm:text-xl text-brand-dark/70 text-left">
+                Fast, transparent financing and investment for businesses and individuals ready to grow.
+              </p>
 
-          {/* Mobile Image Grid (visible only on small screens) */}
-          <div className="md:hidden grid grid-cols-2 gap-3 sm:gap-4 mt-12 w-full max-w-sm mx-auto relative z-20">
-            {/* Card 1 */}
-            <div className="relative aspect-square w-full border-2 border-white/80 shadow-lg">
-              <Image src="/images/hero-card-1.jpg" alt="Freelancer" fill className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex justify-center w-full z-20">
-                <span className="bg-white text-brand-dark px-2 py-0.5 rounded-full font-bold text-[10px] flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                  <Briefcase className="w-2.5 h-2.5 flex-shrink-0 text-brand-yellow" /> Freelancer
-                </span>
-              </div>
-            </div>
-            {/* Card 2 */}
-            <div className="relative aspect-square w-full border-2 border-white/80 shadow-lg">
-              <Image src="/images/ceo.jpg" alt="Engineer" fill className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex justify-center w-full z-20">
-                <span className="bg-white text-brand-dark px-2 py-0.5 rounded-full font-bold text-[10px] flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                  <Settings className="w-2.5 h-2.5 flex-shrink-0 text-brand-yellow" /> Engineer
-                </span>
-              </div>
-            </div>
-            {/* Card 3 */}
-            <div className="relative aspect-square w-full border-2 border-white/80 shadow-lg mt-2">
-              <Image src="/invoice discounting.jpg" alt="Contractor" fill className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex justify-center w-full z-20">
-                <span className="bg-white text-brand-dark px-2 py-0.5 rounded-full font-bold text-[10px] flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                  <Building className="w-2.5 h-2.5 flex-shrink-0 text-brand-yellow" /> Contractor
-                </span>
-              </div>
-            </div>
-            {/* Card 4 */}
-            <div className="relative aspect-square w-full border-2 border-white/80 shadow-lg mt-2">
-              <Image src="/images/hero-card-4.jpg" alt="Employee" fill className="object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex justify-center w-full z-20">
-                <span className="bg-white text-brand-dark px-2 py-0.5 rounded-full font-bold text-[10px] flex items-center justify-center gap-1 shadow-md whitespace-nowrap">
-                  <User className="w-2.5 h-2.5 flex-shrink-0 text-brand-yellow" /> Employee
-                </span>
+              <div className="flex flex-row flex-wrap gap-4 relative z-30">
+                <ApplyNowButton className="px-6 py-3 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 text-sm group">
+                  Apply Now
+                  <span className="bg-brand-dark text-brand-yellow w-5 h-5 flex items-center justify-center rounded-full transition-transform group-hover:translate-x-1 text-xs">→</span>
+                </ApplyNowButton>
+                <Link href="https://wa.me/2347086429380?text=Hi%20Swiftbanq!%20I%27d%20like%20to%20speak%20with%20your%20sales%20team%20about%20your%20financial%20services.%20Could%20you%20please%20assist%20me%3F" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-full border border-brand-dark/20 text-brand-dark font-bold hover:bg-brand-dark/5 transition-colors flex items-center justify-center gap-2 text-sm bg-transparent backdrop-blur-sm group">
+                  <MessageCircle className="w-4 h-4" /> Talk To Support
+                </Link>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Full-width hero image */}
+        <div className="relative left-1/2 -translate-x-1/2 w-screen h-[280px] sm:h-[340px] md:h-[430px] lg:h-auto lg:aspect-[2.3/1] mt-12 md:mt-16 overflow-hidden">
+          <Image
+            src="/images/hero-brand-african-team.png"
+            alt="Swiftbanq customers"
+            fill
+            priority
+            quality={90}
+            className="object-cover object-bottom"
+          />
         </div>
       </section>
 
