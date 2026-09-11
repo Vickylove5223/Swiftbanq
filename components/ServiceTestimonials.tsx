@@ -17,7 +17,7 @@ export function ServiceTestimonials({ testimonials }: ServiceTestimonialsProps) 
       <div className="text-center mb-16">
         <div className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-6">Real Experiences</div>
         <h2 className="text-5xl md:text-7xl font-heading font-black text-brand-dark tracking-tight leading-[1.05]">
-          "Safe and fast."
+          &ldquo;Safe and fast.&rdquo;
         </h2>
       </div>
 
@@ -25,7 +25,7 @@ export function ServiceTestimonials({ testimonials }: ServiceTestimonialsProps) 
         {displayTestimonials.map((testimonial, idx) => (
           <div key={idx} className="flex flex-col">
             <p className="text-xl md:text-2xl font-medium text-brand-dark leading-relaxed mb-8 relative pl-6">
-              <span className="text-5xl absolute left-0 -top-4 text-brand-yellow/50">"</span>
+              <span className="text-5xl absolute left-0 -top-4 text-brand-yellow/50">&ldquo;</span>
               {testimonial.quote}
             </p>
             <div className="mt-auto flex items-center gap-4">

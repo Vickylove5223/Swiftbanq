@@ -86,7 +86,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  To offer a range of advisory services to a diverse base of clients in a precise and professional manner capable of adding value to and unlocking potentials inherent in the client's businesses.
+                  To offer a range of advisory services to a diverse base of clients in a precise and professional manner capable of adding value to and unlocking potentials inherent in the client&apos;s businesses.
                 </p>
               </div>
 
