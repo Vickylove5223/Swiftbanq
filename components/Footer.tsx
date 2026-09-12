@@ -37,7 +37,7 @@ export function Footer() {
           <div className="flex flex-col lg:flex-row justify-between mb-24 gap-16">
             {/* Brand */}
             <div className="w-full lg:w-1/3">
-              <Link href="/" className="flex items-center mb-4" aria-label="Swiftbanq Credit Solutions — home">
+              <Link href="/" className="flex items-center mb-4" aria-label="Swiftbanq Credit Solutions home">
                 <Image src="/SBQ_Logo.svg" alt="Swiftbanq Credit Solutions" width={160} height={40} className="brightness-0 invert opacity-90" />
               </Link>
               <p className="text-brand-cream/80 text-sm font-medium leading-relaxed mb-6">
@@ -124,13 +124,10 @@ export function Footer() {
 
           <div className="pt-10 text-xs text-brand-cream/50 space-y-4 leading-[1.8] font-medium max-w-6xl">
             <p>
-              * Loans and financing options are subject to approval, terms, and conditions. Interest rates and repayment structures may vary based on creditworthiness, market conditions, and regulatory guidelines.
+              Loans and financing options are subject to approval, terms, and conditions. Interest rates and repayment structures may vary based on creditworthiness, market conditions, and regulatory guidelines.
             </p>
             <p>
               Swiftbanq Credit Solutions is a duly licensed money lending institution operating under the regulatory framework of the Lagos State Money Lenders Law. We are not a deposit-taking commercial bank, but a financial partner empowering growth through accessible credit and structured investment.
-            </p>
-            <p>
-              &dagger; Treasury investments and structured borrowing solutions are subject to risk. Past performance does not guarantee future results. Please carefully review all agreements and documentation prior to making financial decisions. If you have any questions regarding Swiftbanq&apos;s offerings, please contact us directly.
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Data Protection Policy',
-  description: 'Swiftbanq Credit Solutions Data Protection Policy — how we collect, process, store, and protect your personal and financial information under the Nigeria Data Protection Regulation (NDPR).',
+  description: 'Swiftbanq Credit Solutions Data Protection Policy: how we collect, process, store, and protect your personal and financial information under the Nigeria Data Protection Regulation (NDPR).',
   alternates: {
     canonical: 'https://swiftbanq.com/data-protection',
   },
@@ -41,12 +41,12 @@ export default function DataProtectionPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Lawfulness, fairness, and transparency in all data processing activities.</li>
-            <li>Purpose limitation — data is collected for specified, explicit, and legitimate purposes only.</li>
-            <li>Data minimisation — we collect only what is necessary and relevant.</li>
-            <li>Accuracy — we take reasonable steps to ensure data is kept up to date.</li>
-            <li>Storage limitation — data is retained only for as long as necessary.</li>
-            <li>Integrity and confidentiality — we apply appropriate technical and organisational measures to protect your data.</li>
-            <li>Accountability — we take responsibility for demonstrating compliance with these principles.</li>
+            <li>Purpose limitation: data is collected for specified, explicit, and legitimate purposes only.</li>
+            <li>Data minimisation: we collect only what is necessary and relevant.</li>
+            <li>Accuracy: we take reasonable steps to ensure data is kept up to date.</li>
+            <li>Storage limitation: data is retained only for as long as necessary.</li>
+            <li>Integrity and confidentiality: we apply appropriate technical and organisational measures to protect your data.</li>
+            <li>Accountability: we take responsibility for demonstrating compliance with these principles.</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">2. Data We Collect</h2>
@@ -82,7 +82,7 @@ export default function DataProtectionPage() {
             <li>To conduct internal analytics and business performance assessments.</li>
           </ul>
           <p>
-            We will only process your data where we have a lawful basis to do so — including your consent, the performance of a contract, compliance with a legal obligation, or our legitimate business interests.
+            We will only process your data where we have a lawful basis to do so, including your consent, the performance of a contract, compliance with a legal obligation, or our legitimate business interests.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">4. Data Security Measures</h2>
@@ -177,7 +177,7 @@ export default function DataProtectionPage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">10. International Data Transfers</h2>
           <p>
-            Where we transfer personal data outside Nigeria — for example, to cloud service providers or technology partners — we ensure that appropriate safeguards are in place to protect your data to a standard equivalent to that required under Nigerian law. This may include contractual clauses, data processing agreements, or other approved transfer mechanisms.
+            Where we transfer personal data outside Nigeria, for example, to cloud service providers or technology partners, we ensure that appropriate safeguards are in place to protect your data to a standard equivalent to that required under Nigerian law. This may include contractual clauses, data processing agreements, or other approved transfer mechanisms.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">11. Changes to This Policy</h2>

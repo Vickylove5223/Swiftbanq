@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '404 — Page Not Found',
+  title: '404 Page Not Found',
   description: 'The page you are looking for does not exist or has been moved.',
   robots: { index: false, follow: false },
 };
 
 export default function NotFound() {
   return (
-    <div className="min-h-[72vh] bg-brand-cream flex items-center justify-center px-4 py-24">
+    <div className="min-h-[72vh] bg-white flex items-center justify-center px-4 py-24">
       <div className="max-w-2xl mx-auto text-center">
         <p className="text-[9rem] md:text-[12rem] font-bold text-brand-dark/8 leading-none select-none tracking-tighter">
           404

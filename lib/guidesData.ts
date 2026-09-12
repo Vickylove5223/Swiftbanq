@@ -87,7 +87,7 @@ While digital lending is convenient, it's important to be a smart borrower:
 - **Data Privacy:** Only use licensed and reputable lenders to protect your personal information.
 
 ### Swiftbanq Digital Lending
-We offer instant disbursement personal loans with highly competitive rates. Our process is transparent—no hidden charges, flexible repayment terms (up to 12 months), and top-tier data security. Your financial well-being is our priority.
+We offer instant disbursement personal loans with highly competitive rates. Our process is transparent, no hidden charges, flexible repayment terms (up to 12 months), and top-tier data security. Your financial well-being is our priority.
     `,
     coverImage: '/images/home-family.jpg',
     date: '2026-05-15',

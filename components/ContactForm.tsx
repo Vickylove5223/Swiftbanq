@@ -258,7 +258,7 @@ export function ContactForm() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="firstName" className="block text-sm font-medium text-gray-900 mb-2">
-                        First Name <span className="text-red-500" aria-hidden="true">*</span>
+                        First Name
                       </label>
                       <input
                         type="text"
@@ -278,7 +278,7 @@ export function ContactForm() {
                     </div>
                     <div>
                       <label htmlFor="lastName" className="block text-sm font-medium text-gray-900 mb-2">
-                        Last Name <span className="text-red-500" aria-hidden="true">*</span>
+                        Last Name
                       </label>
                       <input
                         type="text"
@@ -302,7 +302,7 @@ export function ContactForm() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="email" className="block text-sm font-medium text-gray-900 mb-2">
-                        Email Address <span className="text-red-500" aria-hidden="true">*</span>
+                        Email Address
                       </label>
                       <input
                         type="email"
@@ -344,7 +344,7 @@ export function ContactForm() {
                   {/* Inquiry Purpose - Multi Select Cards */}
                   <div>
                     <label className="block text-sm font-medium text-gray-900 mb-2">
-                      Inquiry Purpose <span className="text-red-500" aria-hidden="true">*</span>
+                      Inquiry Purpose
                     </label>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                       {[
@@ -399,7 +399,7 @@ export function ContactForm() {
                   {/* Description */}
                   <div>
                     <label htmlFor="description" className="block text-sm font-medium text-gray-900 mb-2">
-                      Description that fits you <span className="text-red-500" aria-hidden="true">*</span>
+                      Description that fits you
                     </label>
                     <select
                       id="description"
@@ -445,7 +445,7 @@ export function ContactForm() {
                   {/* Message */}
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-900 mb-2">
-                      Message <span className="text-red-500" aria-hidden="true">*</span>
+                      Message
                     </label>
                     <textarea
                       id="message"

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy',
-  description: 'Swiftbanq Credit Solutions Cookie Policy — how we use cookies and similar technologies on our website, your choices, and how to manage your preferences.',
+  description: 'Swiftbanq Credit Solutions Cookie Policy: how we use cookies and similar technologies on our website, your choices, and how to manage your preferences.',
   alternates: {
     canonical: 'https://swiftbanq.com/cookie-policy',
   },
@@ -57,7 +57,7 @@ export default function CookiePolicyPage() {
 
           <h3 className="text-xl font-bold text-brand-dark mt-8 mb-3">2.2 Performance and Analytics Cookies</h3>
           <p>
-            These cookies collect information about how visitors use our website — for example, which pages are visited most often and whether users receive error messages. All information collected is aggregated and anonymous. We use this data to improve how our website works.
+            These cookies collect information about how visitors use our website, for example, which pages are visited most often and whether users receive error messages. All information collected is aggregated and anonymous. We use this data to improve how our website works.
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Tracking page views, session duration, and user journeys.</li>
@@ -118,13 +118,13 @@ export default function CookiePolicyPage() {
                 <tr>
                   <td className="border border-gray-200 px-4 py-3">_ga</td>
                   <td className="border border-gray-200 px-4 py-3">Analytics</td>
-                  <td className="border border-gray-200 px-4 py-3">Google Analytics — distinguishes unique users</td>
+                  <td className="border border-gray-200 px-4 py-3">Google Analytics, distinguishes unique users</td>
                   <td className="border border-gray-200 px-4 py-3">2 years</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-200 px-4 py-3">_gid</td>
                   <td className="border border-gray-200 px-4 py-3">Analytics</td>
-                  <td className="border border-gray-200 px-4 py-3">Google Analytics — distinguishes users within 24 hours</td>
+                  <td className="border border-gray-200 px-4 py-3">Google Analytics, distinguishes users within 24 hours</td>
                   <td className="border border-gray-200 px-4 py-3">24 hours</td>
                 </tr>
                 <tr>

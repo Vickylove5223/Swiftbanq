@@ -118,7 +118,7 @@ export function ApplyPageForm() {
             <div className="space-y-6">
               <fieldset>
                 <legend className="block text-sm font-bold text-brand-dark mb-3">
-                  Which service are you interested in? <span className="text-red-500" aria-hidden="true">*</span>
+                  Which service are you interested in?
                 </legend>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {SERVICES.map((s) => (
@@ -158,7 +158,7 @@ export function ApplyPageForm() {
               <fieldset>
                 <legend className="block text-sm font-bold text-brand-dark mb-3">
                   {form.service === 'treasury' ? 'Investment amount' : 'Loan amount needed'}{' '}
-                  <span className="text-red-500" aria-hidden="true">*</span>
+                 
                 </legend>
                 <div className="flex flex-wrap gap-2">
                   {AMOUNTS.map((a) => (
@@ -208,7 +208,7 @@ export function ApplyPageForm() {
               <div className="grid sm:grid-cols-2 gap-5">
                 <div className="sm:col-span-2">
                   <label htmlFor="fullName" className="block text-sm font-bold text-brand-dark mb-2">
-                    Full name <span className="text-red-500" aria-hidden="true">*</span>
+                    Full name
                   </label>
                   <input
                     id="fullName"
@@ -224,7 +224,7 @@ export function ApplyPageForm() {
 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-bold text-brand-dark mb-2">
-                    Phone number <span className="text-red-500" aria-hidden="true">*</span>
+                    Phone number
                   </label>
                   <input
                     id="phone"
@@ -240,7 +240,7 @@ export function ApplyPageForm() {
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-bold text-brand-dark mb-2">
-                    Email address <span className="text-red-500" aria-hidden="true">*</span>
+                    Email address
                   </label>
                   <input
                     id="email"
@@ -257,7 +257,7 @@ export function ApplyPageForm() {
                 {isBusiness && (
                   <div className="sm:col-span-2">
                     <label htmlFor="businessName" className="block text-sm font-bold text-brand-dark mb-2">
-                      Business name <span className="text-red-500" aria-hidden="true">*</span>
+                      Business name
                     </label>
                     <input
                       id="businessName"

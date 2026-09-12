@@ -166,7 +166,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-left sm:text-center max-w-5xl mx-auto">
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-brand-dark tracking-tight leading-[1.2] mb-4 max-w-full mx-auto">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-medium text-brand-dark tracking-tight leading-[1.2] mb-4 max-w-full mx-auto">
               Introducing SwiftBanq Loans
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
@@ -500,7 +500,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 justify-items-end md:justify-items-start">
             {/* Card 1 */}
             <div className="bg-[#2a2a2a] rounded-[2.5rem] p-8 md:p-10 flex flex-col justify-between group hover:bg-[#333] transition-colors duration-300">
               <div className="mb-12 h-32 relative">
@@ -510,26 +510,26 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Flexible investment options</h3>
-                <p className="text-gray-400 text-lg leading-relaxed">Choose from a variety of plans designed to fit your financial goals, whether you prefer short-term gains or long-term growth.</p>
+                <p className="text-gray-300 text-lg leading-relaxed">Choose from a variety of plans designed to fit your financial goals, whether you prefer short-term gains or long-term growth.</p>
               </div>
             </div>
 
             {/* Card 2 */}
             <div className="bg-[#2a2a2a] rounded-[2.5rem] p-8 md:p-10 flex flex-col justify-between group hover:bg-[#333] transition-colors duration-300">
-              <div className="mb-12 h-32 flex items-center justify-center relative">
+              <div className="mb-12 h-32 flex items-center justify-end md:justify-center relative">
                 <div className="w-20 h-20 bg-brand-yellow rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-10 h-10 text-brand-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
                 </div>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Competitive returns</h3>
-                <p className="text-gray-400 text-lg leading-relaxed">Benefit from high-yield investment opportunities that maximise your returns, helping you reach your financial targets faster.</p>
+                <p className="text-gray-300 text-lg leading-relaxed">Benefit from high-yield investment opportunities that maximise your returns, helping you reach your financial targets faster.</p>
               </div>
             </div>
 
             {/* Card 3 */}
             <div className="bg-[#2a2a2a] rounded-[2.5rem] p-8 md:p-10 flex flex-col justify-between group hover:bg-[#333] transition-colors duration-300">
-              <div className="mb-12 h-32 relative flex items-center">
+              <div className="mb-12 h-32 relative flex items-center justify-end md:justify-start">
                 <div className="flex -space-x-4 ml-4 group-hover:space-x-0 transition-all duration-300">
                   <div className="w-16 h-16 rounded-full bg-[#4a4a4a] border-4 border-[#2a2a2a] z-30"></div>
                   <div className="w-16 h-16 rounded-full bg-[#3a3a3a] border-4 border-[#2a2a2a] z-20"></div>
@@ -538,7 +538,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-white">Expertly curated investments</h3>
-                <p className="text-gray-400 text-lg leading-relaxed">Rest easy knowing that our team of experts carefully selects and manages each investment opportunity to ensure optimal performance.</p>
+                <p className="text-gray-300 text-lg leading-relaxed">Rest easy knowing that our team of experts carefully selects and manages each investment opportunity to ensure optimal performance.</p>
               </div>
             </div>
           </div>
@@ -568,10 +568,10 @@ export default function Home() {
             <div className="relative lg:absolute lg:inset-0 lg:right-[5%] bg-brand-dark rounded-[2.5rem] overflow-hidden flex flex-col sm:flex-row z-[2]">
 
               {/* Image */}
-              <div className="w-full sm:w-[38%] relative shrink-0 aspect-[771/1080] sm:aspect-auto sm:h-auto">
+              <div className="w-full sm:w-[38%] relative shrink-0 h-80 sm:h-auto">
                 <Image
                   src="/images/ceo.jpeg"
-                  alt="Olawale Osundele — Founder & CEO, Swiftbanq"
+                  alt="Olawale Osundele, Founder & CEO, Swiftbanq"
                   fill
                   unoptimized
                   className="object-cover object-top"

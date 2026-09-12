@@ -1,3 +1,8 @@
+'use client';
+
+import { useState } from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
 interface Testimonial {
   quote: string;
   author: string;
@@ -9,33 +14,65 @@ interface ServiceTestimonialsProps {
 }
 
 export function ServiceTestimonials({ testimonials }: ServiceTestimonialsProps) {
-  const displayTestimonials = testimonials.slice(0, 2);
+  const [index, setIndex] = useState(0);
+
+  const goTo = (i: number) => setIndex((i + testimonials.length) % testimonials.length);
+  const prev = () => goTo(index - 1);
+  const next = () => goTo(index + 1);
+
+  const active = testimonials[index];
 
   return (
     <section className="pb-24 pt-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
       <div className="text-center mb-16">
-        <div className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-6">Real Experiences</div>
         <h2 className="text-5xl md:text-7xl font-heading font-black text-brand-dark tracking-tight leading-[1.05]">
           &ldquo;Safe and fast.&rdquo;
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 max-w-5xl mx-auto">
-        {displayTestimonials.map((testimonial, idx) => (
-          <div key={idx} className="flex flex-col">
-            <p className="text-xl md:text-2xl font-medium text-brand-dark leading-relaxed mb-8 relative pl-6">
-              <span className="text-5xl absolute left-0 -top-4 text-brand-yellow/50">&ldquo;</span>
-              {testimonial.quote}
-            </p>
-            <div className="mt-auto flex items-center gap-4">
-              <div>
-                <div className="font-bold text-brand-dark">{testimonial.author}</div>
-                <div className="text-sm text-gray-500">{testimonial.role}</div>
-              </div>
-            </div>
+      <div className="max-w-3xl mx-auto">
+        <div className="flex flex-col items-center text-center min-h-[220px] sm:min-h-[180px]">
+          <p className="text-xl md:text-2xl font-medium text-brand-dark leading-relaxed mb-8 relative pl-6 text-left sm:text-center sm:pl-0">
+            <span className="text-5xl absolute left-0 sm:static sm:block sm:mb-2 -top-4 text-brand-yellow/50">&ldquo;</span>
+            {active.quote}
+          </p>
+          <div>
+            <div className="font-bold text-brand-dark">{active.author}</div>
+            <div className="text-sm text-gray-500">{active.role}</div>
           </div>
-        ))}
+        </div>
+
+        {testimonials.length > 1 && (
+          <div className="flex items-center justify-center gap-6 mt-10">
+            <button
+              onClick={prev}
+              aria-label="Previous testimonial"
+              className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-brand-dark hover:bg-brand-dark hover:text-white hover:border-brand-dark transition-colors"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+
+            <div className="flex items-center gap-2">
+              {testimonials.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => goTo(i)}
+                  aria-label={`Go to testimonial ${i + 1}`}
+                  className={`h-2 rounded-full transition-all ${i === index ? 'w-6 bg-brand-yellow' : 'w-2 bg-gray-300'}`}
+                />
+              ))}
+            </div>
+
+            <button
+              onClick={next}
+              aria-label="Next testimonial"
+              className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-brand-dark hover:bg-brand-dark hover:text-white hover:border-brand-dark transition-colors"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </div>
+        )}
       </div>
 
     </section>

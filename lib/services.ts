@@ -41,13 +41,13 @@ export const services: ServiceData[] = [
     slug: 'sme-loans',
     subServices: [
       { title: 'Personal Loans', description: 'Quick access to personal funds for emergencies, education, and lifestyle needs.' },
-      { title: 'School Fees Loans', description: 'Never miss a school term — get funds to cover tuition and education expenses fast.' },
+      { title: 'School Fees Loans', description: 'Never miss a school term, get funds to cover tuition and education expenses fast.' },
       { title: 'Salary Advance', description: 'Access a portion of your next paycheck before payday to handle urgent needs.' },
       { title: 'Working Capital', description: 'Keep your business running smoothly with flexible short-term working capital.' },
-      { title: 'Payroll Support', description: 'Ensure you never miss payroll — we fund your staff salaries when cash flow is tight.' },
+      { title: 'Payroll Support', description: 'Ensure you never miss payroll, we fund your staff salaries when cash flow is tight.' },
     ],
     heroTitle: 'Get Fast Personal & SME Loans',
-    heroSubtitle: 'With Swiftbanq, you can access immediate flexible capital — so you can meet personal needs or keep your business moving quickly while you wait.',
+    heroSubtitle: 'With Swiftbanq, you can access immediate flexible capital, so you can meet personal needs or keep your business moving quickly while you wait.',
     heroImage: '/swiftbanq-office-4.jpg',
     heroMockLabel: 'Repayment',
     heroMockTags: [
@@ -57,7 +57,7 @@ export const services: ServiceData[] = [
       { label: 'Working Capital', icon: '💼' },
       { label: 'Payroll Support', icon: '👥' },
     ],
-    title: 'Swiftbanq Personal/SME Loans, unlock flexible capital — fast.',
+    title: 'Swiftbanq Personal/SME Loans, unlock flexible capital fast.',
     howItWorksTitle: 'Our Personal & SME Loan Process',
     subServicesTitle: 'Explore what we offer under Personal & SME Loans',
     benefits: [
@@ -126,7 +126,7 @@ export const services: ServiceData[] = [
     subServices: [
       { title: 'LPO Finance', description: 'Direct capital to execute Local Purchase Orders from verified corporate and government buyers.' },
       { title: 'Supply Contracts', description: 'Funding to fulfill supply agreements and keep your supply chain moving without delays.' },
-      { title: 'Govt Contracts', description: 'Finance government procurement contracts with confidence — we handle the funding.' },
+      { title: 'Govt Contracts', description: 'Finance government procurement contracts with confidence, we handle the funding.' },
       { title: 'Oil & Gas Contracts', description: 'Specialized financing for upstream and downstream Oil & Gas supply contracts.' },
     ],
     heroTitle: 'Execute Contracts with LPO Financing',
@@ -221,7 +221,7 @@ export const services: ServiceData[] = [
       { label: 'Equipment Acquisition', icon: '⚙️' },
       { label: 'Industrial Machinery', icon: '🏭' },
     ],
-    title: 'Swiftbanq Asset Financing, unlock the equipment you need — fast.',
+    title: 'Swiftbanq Asset Financing, unlock the equipment you need fast.',
     howItWorksTitle: 'Our Asset Financing Process',
     subServicesTitle: 'Explore what we offer under Asset Financing',    benefits: [
       {
@@ -291,7 +291,7 @@ export const services: ServiceData[] = [
       { title: 'Receivables Discounting', description: 'Convert your outstanding receivables into immediate working capital to keep operations running.' },
     ],
     heroTitle: 'Get Discounts on Unpaid Invoices',
-    heroSubtitle: 'With Swiftbanq Invoice Discounting, you can get immediate access to up to 70% of your unpaid invoices — so you can keep your operations moving quickly while you wait.',
+    heroSubtitle: 'With Swiftbanq Invoice Discounting, you can get immediate access to up to 70% of your unpaid invoices, so you can keep your operations moving quickly while you wait.',
     heroImage: 'https://img.magnific.com/free-photo/young-black-race-man-with-blueprint-stading-near-glass-building_1157-50906.jpg?t=st=1782723001~exp=1782726601~hmac=6f790a9dfc7ffa0322910a10e475bec41adea815d27a9dc8c8dd35ab3ad07892&w=2000',
     heroMockLabel: 'Short term',
     heroMockTags: [
@@ -300,7 +300,7 @@ export const services: ServiceData[] = [
       { label: 'Corporate Invoices', icon: '🏢' },
       { label: 'Govt Parastatals', icon: '🏛️' },
     ],
-    title: 'Swiftbanq invoice discounting, unlock cash tied up in unpaid invoices — fast.',
+    title: 'Swiftbanq invoice discounting, unlock cash tied up in unpaid invoices fast.',
     howItWorksTitle: 'Our Invoice Discounting Process',
     subServicesTitle: 'Explore what we offer under Invoice Discounting',
     benefits: [

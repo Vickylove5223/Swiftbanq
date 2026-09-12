@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function ServiceBottomCTA() {
   return (
-    <section className="bg-brand-cream py-16 border-t border-gray-200/60">
+    <section className="bg-white py-16 border-t border-gray-200/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <h2 className="text-3xl md:text-5xl font-heading font-black text-brand-dark tracking-tight">

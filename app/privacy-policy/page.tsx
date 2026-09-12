@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Swiftbanq Credit Solutions Privacy Policy — how we collect, use, share, and protect your personal information in compliance with the Nigeria Data Protection Regulation (NDPR).',
+  description: 'Swiftbanq Credit Solutions Privacy Policy: how we collect, use, share, and protect your personal information in compliance with the Nigeria Data Protection Regulation (NDPR).',
   alternates: {
     canonical: 'https://swiftbanq.com/privacy-policy',
   },

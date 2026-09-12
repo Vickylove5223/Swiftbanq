@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Complaints Policy',
-  description: 'Swiftbanq Credit Solutions Complaints Policy — how to raise a complaint, our resolution process, timelines, and your right to escalate to relevant regulatory bodies.',
+  description: 'Swiftbanq Credit Solutions Complaints Policy: how to raise a complaint, our resolution process, timelines, and your right to escalate to relevant regulatory bodies.',
   alternates: {
     canonical: 'https://swiftbanq.com/complaints-policy',
   },
@@ -49,7 +49,7 @@ export default function ComplaintsPolicyPage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">2. What Counts as a Complaint</h2>
           <p>
-            A complaint is any expression of dissatisfaction — whether written or verbal — about our products, services, staff, processes, or decisions. This includes but is not limited to:
+            A complaint is any expression of dissatisfaction, whether written or verbal, about our products, services, staff, processes, or decisions. This includes but is not limited to:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Errors or delays in processing loan or financing applications.</li>
@@ -127,7 +127,7 @@ export default function ComplaintsPolicyPage() {
             Senior management will conduct an independent review of your complaint and provide a final internal response within 7 working days of the escalation request.
           </p>
 
-          <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">8. External Escalation — Regulatory Bodies</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">8. External Escalation, Regulatory Bodies</h2>
           <p>
             If you remain dissatisfied after exhausting our internal complaints process, you have the right to refer your complaint to the relevant regulatory authority. Swiftbanq Credit Solutions operates under the oversight of the Lagos State Ministry of Home Affairs and applicable Money Lenders Law authorities, and you may escalate unresolved complaints to:
           </p>

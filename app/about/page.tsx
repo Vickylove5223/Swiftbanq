@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'About Us | Swiftbanq Credit Solutions',
-    description: 'Learn about Swiftbanq — a licensed Non-Bank Financial Institution in Lagos, Nigeria committed to delivering swift, secure, and structured credit solutions.',
+    description: 'Learn about Swiftbanq, a licensed Non-Bank Financial Institution in Lagos, Nigeria committed to delivering swift, secure, and structured credit solutions.',
     url: 'https://swiftbanq.com/about',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'About Swiftbanq Credit Solutions' }],
   },
@@ -47,7 +47,7 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
               <p>
-                Founded with a clear mandate, Swiftbanq Credit Solutions was built to serve the underserved — SMEs chasing growth, salary earners navigating life&apos;s surprises, and businesses that need a financial partner who moves at their pace.
+                Founded with a clear mandate, Swiftbanq Credit Solutions was built to serve the underserved: SMEs chasing growth, salary earners navigating life&apos;s surprises, and businesses that need a financial partner who moves at their pace.
               </p>
               <p>
                 We combine regulatory discipline with modern thinking to deliver credit products that are fast, fair, and structured for the real economy. Every loan we issue is a commitment to someone&apos;s ambition.
@@ -120,7 +120,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 w-full">
             {[
               { icon: <Users2 className="w-5 h-5 text-brand-dark" />, title: "People First", desc: "We prioritize the needs, goals, and trust of our customers in every decision we make." },
-              { icon: <Handshake className="w-5 h-5 text-brand-dark" />, title: "Integrity", desc: "We operate with honesty and transparency — no hidden fees, no false promises." },
+              { icon: <Handshake className="w-5 h-5 text-brand-dark" />, title: "Integrity", desc: "We operate with honesty and transparency, no hidden fees, no false promises." },
               { icon: <Award className="w-5 h-5 text-brand-dark" />, title: "Excellence", desc: "We strive to exceed expectations with world-class service and performance." },
               { icon: <Lightbulb className="w-5 h-5 text-brand-dark" />, title: "Innovation", desc: "We embrace technology and fresh thinking to deliver smarter financial solutions." },
               { icon: <UserCheck className="w-5 h-5 text-brand-dark" />, title: "Customer Centric", desc: "We design every service around your needs, goals, and experience." },
@@ -154,7 +154,7 @@ export default function AboutPage() {
               We&apos;re building something meaningful. Come be part of it.
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              At Swiftbanq, we believe great work happens when talented people care about the same things — speed, integrity, and real impact. If that sounds like you, we&apos;d love to connect.
+              At Swiftbanq, we believe great work happens when talented people care about the same things: speed, integrity, and real impact. If that sounds like you, we&apos;d love to connect.
             </p>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-10 py-3 bg-brand-yellow text-brand-dark rounded-full font-bold hover:bg-brand-yellow/90 transition-colors text-lg w-full sm:w-auto">
               Get in touch

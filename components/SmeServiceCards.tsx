@@ -21,7 +21,7 @@ const cards = [
   },
   {
     title: 'Contract & Bridge Finance',
-    description: 'Short-term funding to bridge the gap between project execution and final payment — so your contracts never stall.',
+    description: 'Short-term funding to bridge the gap between project execution and final payment, so your contracts never stall.',
     image: '/contract financing.jpg',
     alt: 'Swiftbanq Contract and Bridge Financing',
     tags: ['Bridge', 'Contract', 'Short-term'],

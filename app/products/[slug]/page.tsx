@@ -36,7 +36,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   }
 
   return (
-    <main className="w-full bg-brand-cream">
+    <main className="w-full bg-white">
       <ServiceHero 
         title={service.heroTitle}
         subtitle={service.heroSubtitle}

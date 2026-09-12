@@ -51,7 +51,7 @@ function PersonalLoanScreen() {
           <Briefcase className="w-6 h-6 text-brand-dark" />
         </div>
         <div>
-          <div className="text-sm font-bold text-gray-900 mb-1">Active Loan — <span className="text-brand-dark">₦375 million</span></div>
+          <div className="text-sm font-bold text-gray-900 mb-1">Active Loan <span className="text-brand-dark">₦375 million</span></div>
           <p className="text-xs text-gray-500 leading-relaxed font-medium">
             Next repayment is due in 5 days.
           </p>
@@ -136,7 +136,7 @@ function BusinessLoanScreen() {
         <svg className="w-3 h-3 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        APPROVED — ACTIVE
+        APPROVED, ACTIVE
       </div>
 
       {/* Feature list */}
@@ -160,7 +160,7 @@ function BusinessLoanScreen() {
           <Briefcase className="w-6 h-6 text-brand-dark" />
         </div>
         <div>
-          <div className="text-sm font-bold text-gray-900 mb-1">Fast Approval — <span className="text-brand-dark">48 hrs</span></div>
+          <div className="text-sm font-bold text-gray-900 mb-1">Fast Approval <span className="text-brand-dark">48 hrs</span></div>
           <p className="text-xs text-gray-500 leading-relaxed font-medium">
             Dedicated relationship manager assigned.
           </p>

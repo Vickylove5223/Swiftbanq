@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function ServiceCrossSell() {
   return (
-    <section className="bg-brand-cream py-24 border-t border-gray-200/60">
+    <section className="bg-white py-24 border-t border-gray-200/60">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6">
           GROW WITH US
