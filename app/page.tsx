@@ -164,8 +164,8 @@ export default function Home() {
       {/* Services Header */}
       <section id="services" className="pt-12 pb-4 md:pt-16 md:pb-6 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-5xl mx-auto">
-            
+          <div className="text-left sm:text-center max-w-5xl mx-auto">
+
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-brand-dark tracking-tight leading-[1.2] mb-4 max-w-full mx-auto">
               Introducing SwiftBanq Loans
             </h2>
@@ -225,10 +225,10 @@ export default function Home() {
 
             {/* Right: Text */}
             <div className="w-full lg:w-1/2">
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium text-brand-dark tracking-tight leading-[1.1] mb-6">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 Personal / SME loans tailored to your needs
               </h3>
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-medium">
+              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Tailored loans for personal needs and small business growth. Get the funds you need quickly and easily.
               </p>
               <div className="flex items-center gap-6 mb-10">
@@ -241,9 +241,9 @@ export default function Home() {
                   Competitive rates
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <ApplyNowButton variant="dark" />
-                <Link href="/products/sme-loans" className="text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">Learn More</Link>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                <ApplyNowButton variant="dark" className="order-2 sm:order-1 px-10 py-4 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-lg group" />
+                <Link href="/products/sme-loans" className="order-1 sm:order-2 text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">Learn More</Link>
               </div>
             </div>
 
@@ -298,10 +298,10 @@ export default function Home() {
 
             {/* Left: Text */}
             <div className="w-full lg:w-1/2">
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium text-brand-dark tracking-tight leading-[1.1] mb-6">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 LPO & Contract financing to fulfill orders fast
               </h3>
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-medium">
+              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Secure the funding needed to fulfill your contracts and supply orders without delay.
               </p>
               <div className="flex items-center gap-6 mb-10">
@@ -314,9 +314,9 @@ export default function Home() {
                   Low interest rates
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <ApplyNowButton variant="dark" />
-                <Link href="/products/lpo-financing" className="text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">Learn More</Link>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                <ApplyNowButton variant="dark" className="order-2 sm:order-1 px-10 py-4 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-lg group" />
+                <Link href="/products/lpo-financing" className="order-1 sm:order-2 text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">Learn More</Link>
               </div>
             </div>
 
@@ -368,10 +368,10 @@ export default function Home() {
 
             {/* Right: Text */}
             <div className="w-full lg:w-1/2">
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium text-brand-dark tracking-tight leading-[1.1] mb-6">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 Asset financing to scale your business
               </h3>
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-medium">
+              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Acquire the assets, vehicles, and equipment your business needs to scale and operate efficiently.
               </p>
               <div className="flex items-center gap-6 mb-10">
@@ -384,9 +384,9 @@ export default function Home() {
                   Custom payment schedules
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <ApplyNowButton variant="dark" />
-                <Link href="/products/asset-financing" className="text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">Learn More</Link>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                <ApplyNowButton variant="dark" className="order-2 sm:order-1 px-10 py-4 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-lg group" />
+                <Link href="/products/asset-financing" className="order-1 sm:order-2 text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">Learn More</Link>
               </div>
             </div>
 
@@ -452,11 +452,11 @@ export default function Home() {
 
             {/* Left: Text content */}
             <div className="w-full lg:w-1/2">
-              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-medium text-brand-dark tracking-tight leading-[1.1] mb-6">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 Invoice & Receivables discounting
               </h3>
 
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-medium">
+              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Turn your unpaid invoices into immediate cash to maintain healthy working capital.
               </p>
 
@@ -471,9 +471,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
-                <ApplyNowButton variant="dark" />
-                <Link href="/products/invoice-discounting" className="text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                <ApplyNowButton variant="dark" className="order-2 sm:order-1 px-10 py-4 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-lg group" />
+                <Link href="/products/invoice-discounting" className="order-1 sm:order-2 text-brand-dark font-bold hover:text-brand-yellow transition-colors text-base underline underline-offset-4">
                   Learn More
                 </Link>
               </div>
@@ -568,7 +568,7 @@ export default function Home() {
             <div className="relative lg:absolute lg:inset-0 lg:right-[5%] bg-brand-dark rounded-[2.5rem] overflow-hidden flex flex-col sm:flex-row z-[2]">
 
               {/* Image */}
-              <div className="w-full sm:w-[38%] relative shrink-0 h-64 sm:h-auto">
+              <div className="w-full sm:w-[38%] relative shrink-0 aspect-[771/1080] sm:aspect-auto sm:h-auto">
                 <Image
                   src="/images/ceo.jpeg"
                   alt="Olawale Osundele — Founder & CEO, Swiftbanq"
