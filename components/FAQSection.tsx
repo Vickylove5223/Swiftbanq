@@ -6,7 +6,7 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
   {
     question: "What is Swiftbanq?",
-    answer: "Swiftbanq is a duly Licensed money lending institution operating under the regulatory framework of the Lagos State Money Lenders Law. We provide comprehensive financial solutions including SME Financing, Asset Financing, Digital Lending, and Investment.",
+    answer: "Swiftbanq is a duly licensed money lending institution operating under the regulatory framework of the Lagos State Money Lenders Law. We provide comprehensive financial solutions including SME Financing, Asset Financing, Digital Lending, and Investment.",
   },
   {
     question: "What type of loans do you offer?",

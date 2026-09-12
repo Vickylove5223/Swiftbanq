@@ -56,7 +56,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="font-bold text-brand-dark text-base mb-1">Legal Status</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Duly Licensed money lending institution in Lagos, Nigeria, operating strictly under the regulatory framework of the Nigeria Money Lenders Law and allied prudential guidelines.
+                    Duly licensed money lending institution in Lagos, Nigeria, operating strictly under the regulatory framework of the Lagos State Money Lenders Law and allied prudential guidelines.
                   </p>
                 </div>
                 <div>

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Complaints Policy',
-  description: 'Swiftbanq Credit Solutions Complaints Policy — how to raise a complaint, our resolution process, timelines, and your right to escalate to the CBN and other regulatory bodies.',
+  description: 'Swiftbanq Credit Solutions Complaints Policy — how to raise a complaint, our resolution process, timelines, and your right to escalate to relevant regulatory bodies.',
   alternates: {
     canonical: 'https://swiftbanq.com/complaints-policy',
   },
@@ -41,7 +41,7 @@ export default function ComplaintsPolicyPage() {
             <li>Promptly, fairly, and with respect.</li>
             <li>In a transparent manner, keeping you informed at every stage.</li>
             <li>Without bias or prejudice, regardless of the nature of the complaint.</li>
-            <li>In full compliance with the guidelines of the Central Bank of Nigeria (CBN) and other applicable regulatory frameworks.</li>
+            <li>In full compliance with the Lagos State Money Lenders Law and other applicable regulatory frameworks.</li>
           </ul>
           <p>
             We treat every complaint as an opportunity to learn and improve our services.
@@ -116,7 +116,7 @@ export default function ComplaintsPolicyPage() {
             <li><strong>Acknowledgement:</strong> Within 24 hours of receipt.</li>
             <li><strong>Standard Resolution:</strong> Within 5 working days.</li>
             <li><strong>Complex Cases:</strong> Up to 14 working days, with interim updates provided.</li>
-            <li><strong>Final Response:</strong> No later than 30 calendar days from the date the complaint was received, in line with CBN consumer protection guidelines.</li>
+            <li><strong>Final Response:</strong> No later than 30 calendar days from the date the complaint was received, in line with applicable consumer protection guidelines.</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">7. Escalation Within Swiftbanq</h2>
@@ -129,16 +129,14 @@ export default function ComplaintsPolicyPage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">8. External Escalation — Regulatory Bodies</h2>
           <p>
-            If you remain dissatisfied after exhausting our internal complaints process, you have the right to refer your complaint to the relevant regulatory authority. Swiftbanq Credit Solutions operates under the oversight of the Central Bank of Nigeria (CBN), and you may escalate unresolved complaints to:
+            If you remain dissatisfied after exhausting our internal complaints process, you have the right to refer your complaint to the relevant regulatory authority. Swiftbanq Credit Solutions operates under the oversight of the Lagos State Ministry of Home Affairs and applicable Money Lenders Law authorities, and you may escalate unresolved complaints to:
           </p>
           <ul className="list-none pl-0 space-y-2">
-            <li><strong>Central Bank of Nigeria (CBN) Consumer Protection Department</strong></li>
-            <li>Website: <span className="text-brand-dark">www.cbn.gov.ng</span></li>
-            <li>Email: cpd@cbn.gov.ng</li>
-            <li>Toll-Free Line: 0800 225 5226</li>
+            <li><strong>Federal Competition and Consumer Protection Commission (FCCPC)</strong></li>
+            <li>Website: <span className="text-brand-dark">www.fccpc.gov.ng</span></li>
           </ul>
           <p>
-            You may also contact the Consumer Protection Council (CPC) or seek independent legal advice if you believe your rights have been violated.
+            You may also seek independent legal advice if you believe your rights have been violated.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">9. Confidentiality</h2>
@@ -154,7 +152,7 @@ export default function ComplaintsPolicyPage() {
             We maintain a comprehensive record of all complaints received, including their nature, the outcome, and the time taken to resolve them. This data is reviewed regularly by our management team to identify recurring issues, systemic weaknesses, and opportunities to improve our products and services.
           </p>
           <p>
-            We also submit complaints data to the CBN as required under applicable consumer protection regulations.
+            We also maintain complaints records for reporting to relevant regulatory bodies as required under applicable consumer protection regulations.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">11. Unreasonable or Vexatious Complaints</h2>
@@ -162,7 +160,7 @@ export default function ComplaintsPolicyPage() {
             While we are committed to investigating all complaints fairly, we reserve the right to decline to investigate or continue investigating a complaint that is deemed to be frivolous, vexatious, or made in bad faith. In such cases, we will notify you in writing of our decision and the reasons for it.
           </p>
           <p>
-            This does not affect your right to refer the matter to the CBN or other relevant regulatory bodies.
+            This does not affect your right to refer the matter to relevant regulatory bodies.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">12. Contact Us</h2>

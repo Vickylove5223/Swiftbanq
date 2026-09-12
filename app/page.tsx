@@ -23,7 +23,7 @@ const schemaFAQ = {
       name: 'What is Swiftbanq?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Swiftbanq is a duly Licensed money lending institution operating under the regulatory framework of the Lagos State Money Lenders Law. We provide comprehensive financial solutions including SME Financing, Asset Financing, Digital Lending, and Investment.',
+        text: 'Swiftbanq is a duly licensed money lending institution operating under the regulatory framework of the Lagos State Money Lenders Law. We provide comprehensive financial solutions including SME Financing, Asset Financing, Digital Lending, and Investment.',
       },
     },
     {

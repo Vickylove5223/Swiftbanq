@@ -123,7 +123,7 @@ export default function DataProtectionPage() {
             We do not sell, rent, or trade your personal data to third parties. However, we may share your information with the following categories of recipients where necessary and lawful:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Regulatory and Government Bodies:</strong> Including the Central Bank of Nigeria (CBN), NITDA, and other authorities where required by law or regulation.</li>
+            <li><strong>Regulatory and Government Bodies:</strong> Including NITDA and other authorities where required by law or regulation.</li>
             <li><strong>Credit Bureaus:</strong> For credit assessment, reporting, and verification purposes.</li>
             <li><strong>Service Providers:</strong> Trusted third-party vendors who assist us in delivering our services (e.g., cloud hosting, identity verification, payment processing), all of whom are bound by strict data processing agreements.</li>
             <li><strong>Legal and Professional Advisors:</strong> Where necessary for legal proceedings, compliance, or professional advice.</li>

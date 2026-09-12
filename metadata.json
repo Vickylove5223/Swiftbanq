@@ -4,7 +4,7 @@
   "url": "https://swiftbanq.com",
   "type": "FinancialService",
   "location": "Lagos, Nigeria",
-  "regulation": ["Lagos State Money Lenders Law (LSLB)", "Central Bank of Nigeria (CBN)"],
+  "regulation": ["Lagos State Money Lenders Law (LSLB)"],
   "compliance": ["NDPR"],
   "contact": {
     "general": "info@swiftbanq.com",

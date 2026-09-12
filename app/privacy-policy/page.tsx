@@ -162,7 +162,7 @@ export default function PrivacyPolicyPage() {
 
           <h3 className="text-xl font-semibold text-brand-dark mt-8 mb-3">Regulatory and Government Bodies</h3>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Central Bank of Nigeria (CBN) and other financial regulators.</li>
+            <li>Applicable financial regulators.</li>
             <li>National Information Technology Development Agency (NITDA).</li>
             <li>Law enforcement agencies and courts (when legally required).</li>
             <li>Tax authorities and other government agencies.</li>
