@@ -15,7 +15,7 @@ interface ServiceBenefitsProps {
 function CardVisual({ idx, icon: Icon }: { idx: number; icon: React.ElementType }) {
   if (idx === 0) {
     return (
-      <div className="mb-12 h-32 relative">
+      <div className="mb-6 h-32 relative">
         <div className="absolute top-0 right-0 w-24 h-24 bg-white/5 rounded-2xl rotate-12 group-hover:rotate-6 transition-transform duration-300" />
         <div className="absolute top-4 right-4 w-24 h-24 bg-brand-yellow/20 rounded-2xl -rotate-6 group-hover:rotate-0 transition-transform duration-300" />
       </div>
@@ -23,7 +23,7 @@ function CardVisual({ idx, icon: Icon }: { idx: number; icon: React.ElementType 
   }
   if (idx === 1) {
     return (
-      <div className="mb-12 h-32 flex items-center justify-end relative">
+      <div className="mb-6 h-32 flex items-center justify-end relative">
         <div className="w-20 h-20 bg-brand-yellow rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
           <Icon className="w-10 h-10 text-brand-dark" />
         </div>
@@ -31,7 +31,7 @@ function CardVisual({ idx, icon: Icon }: { idx: number; icon: React.ElementType 
     );
   }
   return (
-    <div className="mb-12 h-32 relative flex items-center justify-end">
+    <div className="mb-6 h-32 relative flex items-center justify-end">
       <div className="flex -space-x-4 ml-4 group-hover:space-x-0 transition-all duration-300">
         <div className="w-16 h-16 rounded-full bg-[#4a4a4a] border-4 border-[#2a2a2a] z-30" />
         <div className="w-16 h-16 rounded-full bg-[#3a3a3a] border-4 border-[#2a2a2a] z-20" />
@@ -43,7 +43,7 @@ function CardVisual({ idx, icon: Icon }: { idx: number; icon: React.ElementType 
 
 export function ServiceBenefits({ benefits }: ServiceBenefitsProps) {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="bg-brand-dark rounded-[2.5rem] md:rounded-[4rem] p-8 md:p-12 lg:p-20">
 
         {/* Header */}

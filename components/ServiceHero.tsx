@@ -109,7 +109,7 @@ export function ServiceHero({ title, subtitle, image, mockLabel, mockTags, whatI
       <section className="w-full bg-white pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-[2rem] p-8 md:p-12 grid md:grid-cols-[auto_1fr] gap-8 md:gap-12 items-center">
-            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border border-brand-dark/20 mx-auto md:mx-0 shrink-0">
+            <div className="hidden md:block relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border border-brand-dark/20 mx-auto md:mx-0 shrink-0">
               <Image src={image} alt={whatIsTitle} fill className="object-cover" />
             </div>
             <div>

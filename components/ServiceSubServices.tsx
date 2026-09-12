@@ -23,18 +23,26 @@ const imageMapping: Record<string, string> = {
   'Supply Contracts': 'https://img.magnific.com/free-photo/warehouse-manager-checking-orders-list-coordinating-parcels-packing-process-african-american-woman-supervisor-with-laptop-controlling-freight-cardboard-boxes-sealing-dispatching_482257-66197.jpg?t=st=1782726485~exp=1782730085~hmac=46daae34deef6dda3399f8e495c3b07b8907eadd108d640f0bedf963c9bdaa28&w=2000',
   'Govt Contracts': '/images/hero-card-4.jpg',
   'Oil & Gas Contracts': 'https://img.magnific.com/free-photo/portrait-smiling-technician-industrial-plant-working-diagnose-equipment_482257-126201.jpg?t=st=1782726652~exp=1782730252~hmac=691d44b882ffe4905173e76b07b8ad744f8df49977e96c03073450e49eb3fd58&w=2000',
+  'Bridge Finance': '/images/hero-card-3.jpg',
+  'Project Finance & Syndication': '/image-3.jpg',
   // Asset Financing
   'Leases': '/images/asset-card.jpg',
   'Vehicle Acquisition': '/images/asset-finance-car.jpg',
   'Equipment Acquisition': '/images/asset-industrial.jpg',
   'Building Acquisition': 'https://img.magnific.com/free-photo/multi-racial-builders-standing-outdoors-back-view-wearing-uniform-talking-about-new-glass-building-working-poject-city-infrastructure_1157-50888.jpg?t=st=1782727095~exp=1782730695~hmac=cc6e0f4a1f11c5f2027bc7e9ca5a637a8f7b34a6d6d7c73c5f01b5905249da40&w=2000',
+  'Industrial Machinery': '/swiftbanq-office-3.jpg',
+  'IT & Laptops': '/image-45.jpg',
   // Invoice Discounting
   'Invoice Discounting': '/images/sme-card.jpg',
   'Receivables Discounting': '/images/hero-card-1.jpg',
+  'Corporate Invoice Discounting': '/image-01.jpg',
+  'Government Invoice Discounting': '/swiftbanq-office.jpg',
+  'Export Invoice Financing': '/swiftbanq-office-4.jpg',
+  'Supply Chain Financing': '/images/asset-card.jpg',
   // Investments
   'Fixed Deposits': '/images/treasury-card.jpg',
-  'Target Savings': '/images/home-family.jpg',
-  'Corporate Treasury': '/images/home-business-men.jpg',
+  'Flexible Savings Plan': '/images/home-family.jpg',
+  'Wealth & Retirement Plan': '/images/why-section.jpg',
 };
 
 export function ServiceSubServices({ subServices, title }: ServiceSubServicesProps) {
