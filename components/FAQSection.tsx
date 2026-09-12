@@ -30,11 +30,11 @@ export function FAQSection() {
   };
 
   return (
-    <section className="py-24 md:py-32 bg-transparent">
+    <section className="pt-8 pb-24 md:pt-12 md:pb-32 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row gap-12 lg:gap-24">
           <div className="w-full md:w-1/3">
-            <h2 className="text-4xl md:text-5xl lg:text-[4rem] font-heading font-medium leading-[1.1] text-brand-dark tracking-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black leading-[1.05] text-brand-dark tracking-tight">
               Frequently Asked Questions
             </h2>
           </div>

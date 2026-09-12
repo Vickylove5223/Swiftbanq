@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Testimonial {
@@ -20,7 +20,13 @@ export function ServiceTestimonials({ testimonials }: ServiceTestimonialsProps) 
   const prev = () => goTo(index - 1);
   const next = () => goTo(index + 1);
 
-  const active = testimonials[index];
+  useEffect(() => {
+    if (testimonials.length <= 1) return;
+    const timer = setInterval(() => {
+      setIndex((i) => (i + 1) % testimonials.length);
+    }, 6000);
+    return () => clearInterval(timer);
+  }, [testimonials.length]);
 
   return (
     <section className="pb-24 pt-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,14 +38,22 @@ export function ServiceTestimonials({ testimonials }: ServiceTestimonialsProps) 
       </div>
 
       <div className="max-w-3xl mx-auto">
-        <div className="flex flex-col items-center text-center min-h-[220px] sm:min-h-[180px]">
-          <p className="text-xl md:text-2xl font-medium text-brand-dark leading-relaxed mb-8 relative pl-6 text-left sm:text-center sm:pl-0">
-            <span className="text-5xl absolute left-0 sm:static sm:block sm:mb-2 -top-4 text-brand-yellow/50">&ldquo;</span>
-            {active.quote}
-          </p>
-          <div>
-            <div className="font-bold text-brand-dark">{active.author}</div>
-            <div className="text-sm text-gray-500">{active.role}</div>
+        <div className="overflow-hidden">
+          <div
+            className="flex transition-transform duration-500 ease-in-out"
+            style={{ transform: `translateX(-${index * 100}%)` }}
+          >
+            {testimonials.map((t, i) => (
+              <div key={i} className="w-full shrink-0 flex flex-col items-center text-center min-h-[220px] sm:min-h-[180px]">
+                <p className="text-xl md:text-2xl font-medium text-brand-dark leading-relaxed mb-8 text-left sm:text-center">
+                  {t.quote}
+                </p>
+                <div>
+                  <div className="font-bold text-brand-dark">{t.author}</div>
+                  <div className="text-sm text-gray-500">{t.role}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 

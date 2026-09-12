@@ -66,7 +66,7 @@ export default function Home() {
         {/* Main Content: headline left, subtext + CTAs right */}
         <div className="w-full max-w-[1400px] mx-auto relative z-20 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-7xl xl:text-8xl font-heading font-black text-brand-dark tracking-tighter leading-[1.02] sm:leading-[0.92] text-left">
-            Borrow and <br /> Invest Wisely <br /> with Us.
+            Borrow & <br /> Invest Wisely <br /> with Us.
           </h1>
 
           <div className="flex flex-col items-start lg:items-end gap-6 lg:pt-4">
@@ -76,11 +76,11 @@ export default function Home() {
               </p>
 
               <div className="flex flex-row flex-wrap gap-4 relative z-30">
-                <ApplyNowButton className="px-6 py-3 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 text-sm group">
+                <ApplyNowButton className="px-8 py-3 rounded-full bg-brand-yellow text-brand-dark font-bold hover:bg-brand-yellow/90 transition-colors flex items-center justify-center gap-2 text-base group">
                   Apply Now
                   <span className="bg-brand-dark text-brand-yellow w-5 h-5 flex items-center justify-center rounded-full transition-transform group-hover:translate-x-1 text-xs">→</span>
                 </ApplyNowButton>
-                <Link href="https://wa.me/2347086429380?text=Hi%20Swiftbanq!%20I%27d%20like%20to%20speak%20with%20your%20sales%20team%20about%20your%20financial%20services.%20Could%20you%20please%20assist%20me%3F" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-full border border-brand-dark/20 text-brand-dark font-bold hover:bg-brand-dark/5 transition-colors flex items-center justify-center gap-2 text-sm bg-transparent backdrop-blur-sm group">
+                <Link href="https://wa.me/2347086429380?text=Hi%20Swiftbanq!%20I%27d%20like%20to%20speak%20with%20your%20sales%20team%20about%20your%20financial%20services.%20Could%20you%20please%20assist%20me%3F" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-full border border-brand-dark/20 text-brand-dark font-bold hover:bg-brand-dark/5 transition-colors flex items-center justify-center gap-2 text-base bg-transparent backdrop-blur-sm group">
                   <MessageCircle className="w-4 h-4" /> Talk To Support
                 </Link>
               </div>
@@ -89,14 +89,15 @@ export default function Home() {
         </div>
 
         {/* Full-width hero image */}
-        <div className="relative left-1/2 -translate-x-1/2 w-screen h-[280px] sm:h-[340px] md:h-[430px] lg:h-auto lg:aspect-[2.3/1] mt-12 md:mt-16 overflow-hidden">
+        <div className="relative left-1/2 -translate-x-1/2 w-screen mt-12 md:mt-16 overflow-hidden">
           <Image
-            src="/images/hero-brand-african-team.png"
+            src="/images/hero-team.svg"
             alt="Swiftbanq customers"
-            fill
+            width={1254}
+            height={555}
             priority
-            quality={90}
-            className="object-cover object-bottom"
+            unoptimized
+            className="w-full h-auto block"
           />
         </div>
       </section>
@@ -112,10 +113,6 @@ export default function Home() {
                 <path d="M6 0.5L6.3648 3.9311L7.88111 0.831691L7.05041 4.18064L9.53533 1.78676L7.60932 4.64962L10.7631 3.25L7.97412 5.28148L11.4164 5.04494L8.10081 6L11.4164 6.95506L7.97412 6.71852L10.7631 8.75L7.60932 7.35038L9.53533 10.2132L7.05041 7.81936L7.88111 11.1683L6.3648 8.0689L6 11.5L5.6352 8.0689L4.11889 11.1683L4.94959 7.81936L2.46467 10.2132L4.39068 7.35038L1.23686 8.75L4.02588 6.71852L0.583557 6.95506L3.89919 6L0.583557 5.04494L4.02588 5.28148L1.23686 3.25L4.39068 4.64962L2.46467 1.78676L4.94959 4.18064L4.11889 0.831691L5.6352 3.9311L6 0.5Z" fill="currentColor"></path>
               </svg>
               <span className="font-heading font-bold text-sm sm:text-lg md:text-xl uppercase tracking-wider">Invoice Discounting</span>
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 sm:w-4 sm:h-4 text-brand-dark flex-shrink-0">
-                <path d="M6 0.5L6.3648 3.9311L7.88111 0.831691L7.05041 4.18064L9.53533 1.78676L7.60932 4.64962L10.7631 3.25L7.97412 5.28148L11.4164 5.04494L8.10081 6L11.4164 6.95506L7.97412 6.71852L10.7631 8.75L7.60932 7.35038L9.53533 10.2132L7.05041 7.81936L7.88111 11.1683L6.3648 8.0689L6 11.5L5.6352 8.0689L4.11889 11.1683L4.94959 7.81936L2.46467 10.2132L4.39068 7.35038L1.23686 8.75L4.02588 6.71852L0.583557 6.95506L3.89919 6L0.583557 5.04494L4.02588 5.28148L1.23686 3.25L4.39068 4.64962L2.46467 1.78676L4.94959 4.18064L4.11889 0.831691L5.6352 3.9311L6 0.5Z" fill="currentColor"></path>
-              </svg>
-              <span className="font-heading font-bold text-sm sm:text-lg md:text-xl uppercase tracking-wider">Working Capital</span>
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 sm:w-4 sm:h-4 text-brand-dark flex-shrink-0">
                 <path d="M6 0.5L6.3648 3.9311L7.88111 0.831691L7.05041 4.18064L9.53533 1.78676L7.60932 4.64962L10.7631 3.25L7.97412 5.28148L11.4164 5.04494L8.10081 6L11.4164 6.95506L7.97412 6.71852L10.7631 8.75L7.60932 7.35038L9.53533 10.2132L7.05041 7.81936L7.88111 11.1683L6.3648 8.0689L6 11.5L5.6352 8.0689L4.11889 11.1683L4.94959 7.81936L2.46467 10.2132L4.39068 7.35038L1.23686 8.75L4.02588 6.71852L0.583557 6.95506L3.89919 6L0.583557 5.04494L4.02588 5.28148L1.23686 3.25L4.39068 4.64962L2.46467 1.78676L4.94959 4.18064L4.11889 0.831691L5.6352 3.9311L6 0.5Z" fill="currentColor"></path>
               </svg>
@@ -187,7 +184,7 @@ export default function Home() {
               {/* Section background image */}
               <Image src="/swiftbanq-office-4.jpg" alt="Swiftbanq SME Financing solutions for Nigerian businesses" fill className="object-cover object-center" />
               {/* Mock card overlaying the image */}
-              <div className="relative z-[2] w-full max-w-[420px] pt-16 px-3 pb-6">
+              <div className="relative z-[2] w-full max-w-[360px] pt-16 px-3 pb-6">
                 <div className="rounded-[2.5rem] pt-4 px-3 pb-5 flex flex-col bg-brand-yellow">
 
 
@@ -197,7 +194,7 @@ export default function Home() {
                     <span className="text-sm font-semibold text-brand-dark">Repayment</span>
                     <div className="flex items-center gap-1">
                       {[3, 6, 12].map((m) => (
-                        <span key={m} className={`px-3 py-1.5 rounded-full text-sm font-bold transition-colors ${m === 6 ? "bg-brand-dark text-brand-cream" : "text-gray-400"}`}>{m}mo</span>
+                        <span key={m} className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${m === 6 ? "bg-brand-dark text-brand-cream" : "text-gray-400"}`}>{m}mo</span>
                       ))}
                     </div>
                   </div>
@@ -228,7 +225,7 @@ export default function Home() {
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 Personal / SME loans tailored to your needs
               </h3>
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
+              <p className="text-lg md:text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Tailored loans for personal needs and small business growth. Get the funds you need quickly and easily.
               </p>
               <div className="flex items-center gap-6 mb-10">
@@ -261,7 +258,7 @@ export default function Home() {
               {/* Section background image */}
               <Image src="https://img.magnific.com/free-photo/warehouse-manager-reading-report-tablet-about-successful-delivery-distribution-warehouse-logistics-center_342744-1554.jpg?t=st=1782722892~exp=1782726492~hmac=f7128d59f1973d532399c6b569d71bb5096d49bcbacb84dbd071f6bfec836e51&w=2000" alt="Swiftbanq Vehicle and Asset Financing options in Nigeria" fill className="object-cover object-center" unoptimized />
               {/* Mock card overlaying the image */}
-              <div className="relative z-[2] w-full max-w-[420px] pt-16 px-3 pb-6">
+              <div className="relative z-[2] w-full max-w-[360px] pt-16 px-3 pb-6">
                 <div className="rounded-[2.5rem] pt-4 px-3 pb-5 flex flex-col bg-brand-yellow">
 
 
@@ -271,7 +268,7 @@ export default function Home() {
                     <span className="text-sm font-semibold text-brand-dark">Repayment</span>
                     <div className="flex items-center gap-1">
                       {[12, 24, 36].map((m) => (
-                        <span key={m} className={`px-3 py-1.5 rounded-full text-sm font-bold transition-colors ${m === 24 ? "bg-brand-dark text-brand-cream" : "text-gray-400"}`}>{m}mo</span>
+                        <span key={m} className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${m === 24 ? "bg-brand-dark text-brand-cream" : "text-gray-400"}`}>{m}mo</span>
                       ))}
                     </div>
                   </div>
@@ -301,7 +298,7 @@ export default function Home() {
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 LPO & Contract financing to fulfill orders fast
               </h3>
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
+              <p className="text-lg md:text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Secure the funding needed to fulfill your contracts and supply orders without delay.
               </p>
               <div className="flex items-center gap-6 mb-10">
@@ -334,7 +331,7 @@ export default function Home() {
               {/* Section background image */}
               <Image src="/images/asset-finance-car.jpg" alt="Industrial Equipment financing by Swiftbanq Credit Solutions" fill className="object-cover object-center" />
               {/* Mock card overlaying the image */}
-              <div className="relative z-[2] w-full max-w-[420px] pt-16 px-3 pb-6">
+              <div className="relative z-[2] w-full max-w-[360px] pt-16 px-3 pb-6">
                 <div className="rounded-[2.5rem] pt-4 px-3 pb-5 flex flex-col bg-brand-yellow">
 
                   {/* Loan term */}
@@ -342,7 +339,7 @@ export default function Home() {
                     <span className="text-sm font-semibold text-brand-dark">Business Term</span>
                     <div className="flex items-center gap-1">
                       {[12, 24, 36].map((m) => (
-                        <span key={m} className={`px-3 py-1.5 rounded-full text-sm font-bold transition-colors ${m === 24 ? "bg-brand-dark text-brand-cream" : "text-gray-400"}`}>{m}mo</span>
+                        <span key={m} className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${m === 24 ? "bg-brand-dark text-brand-cream" : "text-gray-400"}`}>{m}mo</span>
                       ))}
                     </div>
                   </div>
@@ -371,7 +368,7 @@ export default function Home() {
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-brand-dark tracking-tight leading-[1.1] mb-6">
                 Asset financing to scale your business
               </h3>
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
+              <p className="text-lg md:text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Acquire the assets, vehicles, and equipment your business needs to scale and operate efficiently.
               </p>
               <div className="flex items-center gap-6 mb-10">
@@ -405,7 +402,7 @@ export default function Home() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="https://img.magnific.com/free-photo/young-black-race-man-with-blueprint-stading-near-glass-building_1157-50906.jpg?t=st=1782723001~exp=1782726601~hmac=6f790a9dfc7ffa0322910a10e475bec41adea815d27a9dc8c8dd35ab3ad07892&w=2000" alt="Family home secured with Swiftbanq Digital Lending" className="object-cover object-center absolute inset-0 w-full h-full" />
               {/* Mock card overlaying the image */}
-              <div className="relative z-[2] w-full max-w-[420px] pt-16 px-3 pb-6">
+              <div className="relative z-[2] w-full max-w-[360px] pt-16 px-3 pb-6">
                 <div className="rounded-[2.5rem] pt-4 px-3 pb-5 flex flex-col bg-brand-yellow">
 
                   {/* Loan term selector */}
@@ -415,7 +412,7 @@ export default function Home() {
                       {[3, 6, 9].map((m) => (
                         <span
                           key={m}
-                          className={`px-3 py-1.5 rounded-full text-sm font-bold transition-colors ${
+                          className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
                             m === 6 ? "bg-brand-dark text-brand-cream" : "text-gray-400"
                           }`}
                         >
@@ -456,7 +453,7 @@ export default function Home() {
                 Invoice & Receivables discounting
               </h3>
 
-              <p className="text-xl text-gray-600 mb-8 leading-tight font-normal">
+              <p className="text-lg md:text-xl text-gray-600 mb-8 leading-tight font-normal">
                 Turn your unpaid invoices into immediate cash to maintain healthy working capital.
               </p>
 
@@ -516,7 +513,7 @@ export default function Home() {
 
             {/* Card 2 */}
             <div className="bg-[#2a2a2a] rounded-[2.5rem] p-8 md:p-10 flex flex-col justify-between group hover:bg-[#333] transition-colors duration-300">
-              <div className="mb-12 h-32 flex items-center justify-end md:justify-center relative">
+              <div className="mb-12 h-32 flex items-center justify-end relative">
                 <div className="w-20 h-20 bg-brand-yellow rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-10 h-10 text-brand-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
                 </div>
@@ -529,7 +526,7 @@ export default function Home() {
 
             {/* Card 3 */}
             <div className="bg-[#2a2a2a] rounded-[2.5rem] p-8 md:p-10 flex flex-col justify-between group hover:bg-[#333] transition-colors duration-300">
-              <div className="mb-12 h-32 relative flex items-center justify-end md:justify-start">
+              <div className="mb-12 h-32 relative flex items-center justify-end">
                 <div className="flex -space-x-4 ml-4 group-hover:space-x-0 transition-all duration-300">
                   <div className="w-16 h-16 rounded-full bg-[#4a4a4a] border-4 border-[#2a2a2a] z-30"></div>
                   <div className="w-16 h-16 rounded-full bg-[#3a3a3a] border-4 border-[#2a2a2a] z-20"></div>

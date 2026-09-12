@@ -113,7 +113,7 @@ export default function AboutPage() {
         <div className="mt-16 md:mt-20 mb-16 md:mb-20">
           <div className="mb-16">
             <h2 className="text-4xl md:text-5xl font-heading font-medium text-brand-dark tracking-tight mb-6">We live by our values.</h2>
-            <p className="text-xl text-gray-600 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed">
               Our core principles guide every interaction and decision we make, ensuring we always deliver our best.
             </p>
           </div>

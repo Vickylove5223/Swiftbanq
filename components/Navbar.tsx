@@ -86,7 +86,7 @@ export function Navbar() {
 
               <div
                 id="services-menu"
-                className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 rounded-2xl shadow-lg bg-brand-cream ring-1 ring-black ring-opacity-5 transition-all duration-200 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}
+                className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 rounded-2xl shadow-lg bg-white transition-all duration-200 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}
                 onMouseEnter={() => setIsServicesOpen(true)}
                 onMouseLeave={() => setIsServicesOpen(false)}
               >
@@ -122,7 +122,7 @@ export function Navbar() {
 
               <div
                 id="resources-menu"
-                className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 rounded-2xl shadow-lg bg-brand-cream ring-1 ring-black ring-opacity-5 transition-all duration-200 ${isResourcesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}
+                className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 rounded-2xl shadow-lg bg-white transition-all duration-200 ${isResourcesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}
                 onMouseEnter={() => setIsResourcesOpen(true)}
                 onMouseLeave={() => setIsResourcesOpen(false)}
               >
@@ -165,7 +165,7 @@ export function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div id="mobile-menu" className="md:hidden bg-brand-cream px-4 pb-6 py-2 overflow-y-auto w-full absolute top-full left-0 shadow-lg border-t border-brand-dark/5">
+        <div id="mobile-menu" className="md:hidden bg-white px-4 pb-6 py-2 overflow-y-auto w-full absolute top-full left-0 shadow-lg">
           <nav aria-label="Mobile navigation">
             <div className="space-y-1 pt-2">
               <div className="px-4 py-2 font-bold text-gray-900 text-lg">Our Products</div>

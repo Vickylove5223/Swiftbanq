@@ -28,7 +28,7 @@ export default function GuidesPage() {
         
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-medium text-brand-dark tracking-tight mb-6">Guides & Resources</h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Everything you need to know about navigating the financial landscape and scaling your business.
           </p>
         </div>

@@ -82,7 +82,7 @@ export default async function GuidePostPage({ params }: { params: Promise<{ slug
         {/* Header */}
         <header className="mb-12">
           <div className="flex items-center gap-4 text-sm text-gray-500 font-semibold mb-6">
-            <span className="bg-brand-cream px-3 py-1 rounded-full text-brand-dark">{guide.category}</span>
+            <span className="bg-white px-3 py-1 rounded-full text-brand-dark">{guide.category}</span>
             <span>{new Date(guide.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
             <span>•</span>
             <span>{guide.readTime}</span>
@@ -90,7 +90,7 @@ export default async function GuidePostPage({ params }: { params: Promise<{ slug
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-medium text-brand-dark tracking-tight leading-tight mb-8">
             {guide.title}
           </h1>
-          <p className="text-xl text-gray-600 leading-relaxed font-medium">
+          <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
             {guide.excerpt}
           </p>
         </header>

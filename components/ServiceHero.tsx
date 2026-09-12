@@ -67,14 +67,14 @@ export function ServiceHero({ title, subtitle, image, mockLabel, mockTags }: Ser
 
             {/* Mock Card */}
             {mockTags && mockTags.length > 0 && (
-              <div className="relative z-10 w-full max-w-[380px] px-4 pb-6 pt-32">
+              <div className="relative z-10 w-full max-w-[320px] px-4 pb-6 pt-32">
                 <div className="rounded-[2rem] pt-4 px-4 pb-5 flex flex-col bg-brand-yellow shadow-2xl">
                   {/* Label row */}
                   <div className="bg-white/80 rounded-2xl px-5 py-3 flex items-center justify-between mb-5">
                     <span className="text-sm font-semibold text-brand-dark">{mockLabel ?? 'Options'}</span>
                     <div className="flex items-center gap-1">
                       {[3, 6, 12].map((m) => (
-                        <span key={m} className={`px-3 py-1.5 rounded-full text-sm font-bold transition-colors ${m === 6 ? 'bg-brand-dark text-brand-cream' : 'text-gray-400'}`}>{m}mo</span>
+                        <span key={m} className={`px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${m === 6 ? 'bg-brand-dark text-brand-cream' : 'text-gray-400'}`}>{m}mo</span>
                       ))}
                     </div>
                   </div>

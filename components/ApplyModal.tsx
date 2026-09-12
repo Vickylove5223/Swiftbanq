@@ -49,7 +49,7 @@ export function ApplyModal({ isOpen, onClose }: ApplyModalProps) {
       />
 
       {/* Modal panel — same bg as site cream */}
-      <div className="relative bg-brand-cream rounded-3xl shadow-2xl w-full max-w-md p-8 z-10">
+      <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-md p-8 z-10">
         {/* Close button */}
         <button
           onClick={onClose}

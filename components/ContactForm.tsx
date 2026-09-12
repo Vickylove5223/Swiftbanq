@@ -176,7 +176,7 @@ export function ContactForm() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Contact Us</h1>
-          <p className="text-xl text-gray-600 max-w-2xl">
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl">
             Have questions about our financial solutions? Get in touch with our team any services enquiry you have needs for.
           </p>
         </div>
