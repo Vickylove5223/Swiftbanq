@@ -49,7 +49,7 @@ export function ServiceSubServices({ subServices, title }: ServiceSubServicesPro
   if (!subServices || subServices.length === 0) return null;
 
   return (
-    <section className="pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="pt-8 pb-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="bg-brand-dark rounded-[2.5rem] md:rounded-[4rem] p-8 md:p-12 lg:p-20 text-center">
         <div className="text-xs font-bold uppercase tracking-widest text-brand-yellow mb-6">
           OUR SERVICES

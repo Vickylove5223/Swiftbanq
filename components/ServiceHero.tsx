@@ -125,7 +125,7 @@ export function ServiceHero({ title, subtitle, image, mockLabel, mockTags, whatI
               {whoCanApply && (
                 <div className="mt-6 pt-6 border-t border-gray-200">
                   <h3 className="text-sm font-black uppercase tracking-widest text-brand-dark mb-2">Who can apply?</h3>
-                  <p className="text-base text-gray-600 leading-relaxed">{whoCanApply}</p>
+                  <p className="text-lg text-gray-600 leading-relaxed">{whoCanApply}</p>
                 </div>
               )}
             </div>

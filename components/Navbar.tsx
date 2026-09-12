@@ -178,10 +178,6 @@ export function Navbar() {
               </div>
               <Link onClick={() => setIsOpen(false)} href="/about" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">About Us</Link>
               <Link onClick={() => setIsOpen(false)} href="/contact" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Contact Us</Link>
-              <Link onClick={() => setIsOpen(false)} href="/privacy-policy" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Privacy Policy</Link>
-              <Link onClick={() => setIsOpen(false)} href="/cookie-policy" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Cookie Policy</Link>
-              <Link onClick={() => setIsOpen(false)} href="/data-protection" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Data Protection</Link>
-              <Link onClick={() => setIsOpen(false)} href="/complaints-policy" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Complaints Policy</Link>
               <Link onClick={() => setIsOpen(false)} href="/blog" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Our Blog</Link>
               <button
                 onClick={() => { setIsOpen(false); setIsApplyModalOpen(true); }}
