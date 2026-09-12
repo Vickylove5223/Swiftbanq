@@ -17,6 +17,7 @@ const imageMapping: Record<string, string> = {
   'Salary Advance': '/images/home-meeting.jpg',
   'Working Capital': '/images/sme-card.jpg',
   'Payroll Support': '/images/home-business-men.jpg',
+  'Rent Advance': '/images/hero-card-1.jpg',
   // LPO Financing
   'LPO Finance': 'https://img.magnific.com/free-photo/warehouse-manager-reading-report-tablet-about-successful-delivery-distribution-warehouse-logistics-center_342744-1554.jpg?t=st=1782722892~exp=1782726492~hmac=f7128d59f1973d532399c6b569d71bb5096d49bcbacb84dbd071f6bfec836e51&w=2000',
   'Supply Contracts': 'https://img.magnific.com/free-photo/warehouse-manager-checking-orders-list-coordinating-parcels-packing-process-african-american-woman-supervisor-with-laptop-controlling-freight-cardboard-boxes-sealing-dispatching_482257-66197.jpg?t=st=1782726485~exp=1782730085~hmac=46daae34deef6dda3399f8e495c3b07b8907eadd108d640f0bedf963c9bdaa28&w=2000',
@@ -40,29 +41,29 @@ export function ServiceSubServices({ subServices, title }: ServiceSubServicesPro
   if (!subServices || subServices.length === 0) return null;
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="pt-8 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="bg-brand-dark rounded-[2.5rem] md:rounded-[4rem] p-8 md:p-12 lg:p-20 text-center">
-        <div className="text-xs font-bold uppercase tracking-widest text-white/40 mb-6">
+        <div className="text-xs font-bold uppercase tracking-widest text-brand-yellow mb-6">
           OUR SERVICES
         </div>
         <h2 className="text-5xl md:text-6xl font-heading font-black text-white tracking-tight leading-[1.05] mb-16">
           {title ?? <>Explore what we <span className="italic font-serif">offer</span><br />under this product</>}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
           {subServices.map((service, idx) => (
             <div
               key={idx}
-              className="rounded-3xl p-8 md:p-12 flex flex-col items-start transition-transform hover:-translate-y-1 border border-white/10"
+              className="rounded-3xl p-5 md:p-6 flex flex-col items-start transition-transform hover:-translate-y-1 border border-white/10"
             >
-              <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight text-white">
+              <h3 className="text-xl md:text-2xl font-black mb-3 leading-tight text-white">
                 {service.title}
               </h3>
-              <p className="text-white/60 font-medium mb-10 text-lg md:text-xl">
+              <p className="text-white/60 font-medium mb-6 text-sm md:text-base">
                 {service.description}
               </p>
 
-              <div className="mt-auto w-full h-48 md:h-64 relative rounded-2xl overflow-hidden mt-4 bg-white/10">
+              <div className="mt-auto w-full h-40 md:h-48 relative rounded-2xl overflow-hidden bg-white/10">
                 <Image
                   src={imageMapping[service.title] || '/images/hero-card-1.jpg'}
                   alt={service.title}

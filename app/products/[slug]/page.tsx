@@ -21,9 +21,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const service = services.find((s) => s.slug === slug);
   if (!service) return { title: 'Service Not Found' };
 
+  const url = `https://swiftbanq.com/products/${service.slug}`;
+
   return {
     title: `${service.heroTitle} | Swiftbanq Services`,
     description: service.heroSubtitle,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      type: 'website',
+      title: `${service.heroTitle} | Swiftbanq Credit Solutions`,
+      description: service.heroSubtitle,
+      url,
+      images: [{ url: service.heroImage, width: 1200, height: 630, alt: service.heroTitle }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${service.heroTitle} | Swiftbanq Credit Solutions`,
+      description: service.heroSubtitle,
+      images: [service.heroImage],
+    },
   };
 }
 
@@ -35,14 +53,34 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     notFound();
   }
 
+  const schemaFAQ = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: service.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <main className="w-full bg-white">
-      <ServiceHero 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }}
+      />
+      <ServiceHero
         title={service.heroTitle}
         subtitle={service.heroSubtitle}
         image={service.heroImage}
         mockLabel={service.heroMockLabel}
         mockTags={service.heroMockTags}
+        whatIsTitle={service.whatIsTitle}
+        whatIsDescription={service.whatIsDescription}
+        whoCanApply={service.whoCanApply}
       />
       
       {service.subServices && service.subServices.length > 0 && (

@@ -94,4 +94,235 @@ We offer instant disbursement personal loans with highly competitive rates. Our 
     readTime: '3 min read',
     category: 'Personal Finance'
   },
+  {
+    slug: 'best-lpo-financing-company-nigeria',
+    title: 'Best Place to Get LPO Financing in Nigeria (2026 Guide)',
+    excerpt: 'Won a supply or government contract but short on capital? Here is exactly what to look for in an LPO financing partner, and why Swiftbanq is the fastest way to fund your Local Purchase Order.',
+    content: `
+## What Is LPO Financing?
+Local Purchase Order (LPO) financing is short-term funding that allows a business to execute a confirmed supply or contract order from a corporate or government buyer, even when it does not have the upfront capital to pay suppliers. Instead of turning down a profitable contract, the financing company pays your suppliers directly so you can deliver on time and get paid by your client later.
+
+If you have ever searched for the best place to get LPO financing in Nigeria, the short answer is: choose a lender that funds a high percentage of the contract value, pays suppliers directly, and disburses within 48 hours. Swiftbanq does all three.
+
+## How to Choose the Best LPO Financing Company in Nigeria
+Not every lender is built for contract financing. Before you commit, compare providers against these criteria.
+
+### 1. Speed of disbursement
+A slow lender can cost you the contract entirely. Look for a partner that verifies and funds LPOs within 48 hours, not weeks.
+
+### 2. Percentage of contract value funded
+Some lenders only fund 30 to 40 percent of the order. [Swiftbanq's LPO Financing](/products/lpo-financing) provides up to 70 percent of the contract value, so you are not left scrambling for the balance.
+
+### 3. Direct supplier payment
+The best providers pay your suppliers or vendors directly, which protects the funds from misuse and builds trust with both your buyer and supplier.
+
+### 4. Transparent, upfront fees
+Avoid lenders that bury charges in fine print. Every fee should be disclosed before you sign.
+
+### 5. Experience with your sector
+Whether it is FMCG supply, oil and gas, or government procurement, a lender who understands your industry will assess your LPO faster and more accurately.
+
+![Swiftbanq team reviewing a contract financing application in Lagos](/images/sme-card.jpg)
+
+## Why Businesses Choose Swiftbanq for LPO Financing
+Swiftbanq Credit Solutions is a duly licensed money lending institution based in Victoria Island, Lagos, with over 15 years of combined management and board experience in the Nigerian credit market. We built our LPO financing product specifically for suppliers and contractors who cannot afford to lose a contract to a cash flow gap.
+
+- We fund up to 70% of your verified Local Purchase Order or contract value.
+- Funds are disbursed directly to your supplier within 48 hours of verification.
+- We finance LPOs from FMCGs, telecoms, oil and gas companies, and government parastatals.
+- No hidden charges, every fee is communicated before you accept.
+
+> Swiftbanq helps contractors across Lagos and beyond execute government and corporate supply orders without draining their working capital.
+
+## How to Apply for LPO Financing
+- **Submit your LPO:** Upload your verified Local Purchase Order or contract on our secure application portal.
+- **Get evaluated:** Our team reviews the contract and the issuing organisation, usually within hours.
+- **We pay your supplier:** Once approved, we fund your supplier directly so you can execute the order.
+- **Deliver and repay:** Your client pays the invoice into a domiciled account, and the facility is settled.
+
+For a broader look at how financing supports the real sector in Nigeria, the [Central Bank of Nigeria](https://www.cbn.gov.ng/) publishes guidance worth reviewing alongside your own financing options.
+
+## Get Started Today
+If you have a confirmed Local Purchase Order and need funding fast, Swiftbanq is ready to help. [Apply for LPO Financing](/apply) online in minutes.
+
+- **Call or WhatsApp:** 07086429380
+- **Email:** enquiries@swiftbanq.com
+- **Visit us:** 6, Babatunde Jose Street, Off Ademola Adetokunbo V.I, Lagos, Nigeria
+
+Have questions first? [Get in touch with our team](/contact) and we will walk you through your options.
+    `,
+    coverImage: '/swiftbanq-office-3.jpg',
+    date: '2026-06-02',
+    readTime: '6 min read',
+    category: 'LPO Financing'
+  },
+  {
+    slug: 'cheap-business-loan-nigeria-guide',
+    title: 'How to Get a Cheap Business Loan in Nigeria (2026 Guide)',
+    excerpt: 'Looking for an affordable business loan in Nigeria? Learn what actually determines your interest rate, how to qualify for the best terms, and where to apply.',
+    content: `
+## Is There Really Such a Thing as a Cheap Business Loan?
+The cheapest business loan is not always the one with the lowest headline interest rate. It is the loan with the lowest total cost, fast approval, and no hidden charges. A loan that takes six weeks to disburse can cost you far more in lost sales than a slightly higher rate that pays out in 48 hours.
+
+If you are searching for how to get a cheap business loan in Nigeria, here is what actually keeps your borrowing cost down.
+
+## 5 Factors That Determine How Cheap Your Loan Really Is
+
+### 1. Interest rate versus total cost
+Always ask for the total repayment amount, not just the monthly rate. Some lenders quote a low rate but add processing fees, insurance, and penalties that push the real cost much higher.
+
+### 2. Loan tenure
+Shorter tenures often mean lower total interest paid, but higher monthly repayments. Match your tenure to your cash flow cycle, not the other way around.
+
+### 3. Collateral requirements
+Unsecured loans are usually faster but may carry higher rates. Secured loans, backed by an asset, can be cheaper, but only if you can comfortably provide collateral.
+
+### 4. Your credit and business history
+Clean financial records, a registered business, and consistent bank statements almost always earn you better terms.
+
+### 5. Lender licensing and transparency
+Only work with a duly licensed lender. Unlicensed loan apps often bury the real cost of borrowing until it is too late.
+
+![Small business owner reviewing loan documents with a Swiftbanq advisor](/swiftbanq-office-2.jpg)
+
+## How Swiftbanq Keeps Business Loans Affordable
+Swiftbanq Credit Solutions is a duly licensed money lending institution operating under the Lagos State Money Lenders Law. Our [Personal & SME Loans](/products/sme-loans) are structured to keep your total cost of borrowing low and predictable.
+
+- Competitive, transparent interest rates with no hidden charges.
+- Minimal paperwork, apply online with basic documentation.
+- Decisions within 48 hours, so you are not losing business while you wait.
+- Flexible repayment tenures matched to your business cash flow.
+
+> A loan is only cheap if it helps your business earn more than it costs you. That is the standard we hold every Swiftbanq facility to.
+
+## Documents You Will Typically Need
+- A registered business, evidenced by CAC registration.
+- Six months of bank statements showing consistent cash flow.
+- A clear purpose for the loan.
+- Valid means of identification.
+
+According to [SMEDAN](https://smedan.gov.ng/), access to affordable finance remains one of the biggest constraints facing small businesses in Nigeria, which is exactly why choosing the right lender matters as much as the rate itself.
+
+## Ready to Apply?
+Get a fast, fair, and transparent business loan with Swiftbanq. [Apply online now](/apply), or explore our full range of [SME financing options](/products/sme-loans) first.
+
+- **Call or WhatsApp:** 07086429380
+- **Email:** enquiries@swiftbanq.com
+- **Visit us:** 6, Babatunde Jose Street, Off Ademola Adetokunbo V.I, Lagos, Nigeria
+
+Not sure which loan fits your business? [Contact our team](/contact) for a free consultation.
+    `,
+    coverImage: '/images/home-meeting.jpg',
+    date: '2026-06-05',
+    readTime: '6 min read',
+    category: 'Business Loans'
+  },
+  {
+    slug: 'invoice-discounting-nigeria-guide',
+    title: 'How to Get Invoice Discounting for Your Business in Nigeria',
+    excerpt: 'Waiting 30 to 90 days for clients to pay? Here is how invoice discounting works in Nigeria, who qualifies, and how to unlock up to 70% of your unpaid invoices today.',
+    content: `
+## What Is Invoice Discounting?
+Invoice discounting lets you convert unpaid invoices into immediate cash instead of waiting 30, 60, or 90 days for a client to pay. The lender advances you a percentage of the invoice value upfront, and collects the balance, minus a small fee, once your client settles the invoice.
+
+If your business regularly supplies goods or services to corporates or government bodies on credit terms, invoice discounting can be the difference between steady growth and a cash flow crisis.
+
+## Who Can Use Invoice Discounting in Nigeria?
+- Registered businesses supplying goods or services to reputable corporate organisations.
+- Suppliers and contractors with verified, unpaid invoices from creditworthy clients.
+- Businesses that need working capital without taking on long-term debt.
+
+## How Swiftbanq Invoice Discounting Works
+[Swiftbanq's Invoice Discounting](/products/invoice-discounting) gives you access to up to 70% of your verified invoice value within 48 hours.
+
+- **Apply online:** Upload your invoice and proof of job completion on our secure portal.
+- **Get verified:** We confirm the invoice with the issuing organisation.
+- **Receive funds:** Up to 70% of the invoice value is disbursed directly to your account.
+- **Client pays later:** Your client settles the invoice into a domiciled account; we deduct our fee and remit the balance to you.
+
+![Business owner reviewing an invoice discounting facility with Swiftbanq](/image-3.jpg)
+
+## Why Invoice Discounting Beats Waiting for Payment
+> Cash flow, not profit, is what keeps a business alive. Invoice discounting turns money you have already earned into money you can use today.
+
+- No need to chase clients for early payment.
+- Keeps your balance sheet clean since it is not a traditional loan.
+- Funds are typically released within 48 hours of verification.
+- Transparent discount fees, disclosed before you commit.
+
+## Is Invoice Discounting Right for You?
+If your business ties up significant working capital in unpaid receivables from corporates, telecoms, or government parastatals, invoice discounting is often cheaper and faster than a traditional loan. For general guidance on working capital management as a Nigerian business, the [Central Bank of Nigeria](https://www.cbn.gov.ng/) also publishes useful resources for SMEs.
+
+## Unlock Your Cash Flow Today
+Do not let unpaid invoices slow your business down. [Apply for Invoice Discounting](/apply) with Swiftbanq today.
+
+- **Call or WhatsApp:** 07086429380
+- **Email:** enquiries@swiftbanq.com
+- **Visit us:** 6, Babatunde Jose Street, Off Ademola Adetokunbo V.I, Lagos, Nigeria
+
+Have an invoice you would like to discuss? [Reach out to our team](/contact) and we will guide you through the process.
+    `,
+    coverImage: '/images/treasury-card.jpg',
+    date: '2026-06-09',
+    readTime: '5 min read',
+    category: 'Invoice Discounting'
+  },
+  {
+    slug: 'best-asset-equipment-financing-lagos',
+    title: 'Best Asset & Equipment Financing Company in Lagos, Nigeria',
+    excerpt: 'Need a vehicle, machinery, or office equipment without draining your working capital? Here is how to choose an asset financing partner in Lagos, and how Swiftbanq makes it easy.',
+    content: `
+## Why Finance Assets Instead of Buying Outright?
+Paying cash for a delivery van, industrial machine, or office equipment can drain the working capital your business needs for daily operations. Asset financing lets you spread the cost over time while the asset itself starts generating revenue.
+
+If you are searching for the best asset and equipment financing company in Lagos, here is what to look for and why Swiftbanq consistently comes out on top.
+
+## What to Look for in an Asset Financing Partner
+
+### Reasonable equity contribution
+Most lenders require 20 to 30 percent upfront. Anything significantly higher limits how much capital you actually free up.
+
+### Flexible repayment tenure
+Your repayment plan should match the revenue the asset generates, typically 12 to 36 months.
+
+### Range of assets covered
+A strong partner finances vehicles, industrial machinery, medical equipment, and IT infrastructure, not just one category.
+
+### Fast procurement
+Once your equity is paid, the asset should be procured and handed over quickly so it can start working for you.
+
+![Delivery vehicles financed through Swiftbanq's asset financing program](/images/asset-industrial.jpg)
+
+## How Swiftbanq Asset Financing Works
+[Swiftbanq's Asset Financing](/products/asset-financing) is built for businesses in Lagos and across Nigeria that need vehicles, machinery, or equipment without tying up cash reserves.
+
+- **Apply online:** Submit your application with a proforma invoice for the asset you want.
+- **Make your equity contribution:** Typically 20 to 30 percent of the asset value.
+- **We procure the asset:** Swiftbanq purchases the asset and hands it over for immediate use.
+- **Repay over time:** Pay the balance in comfortable monthly instalments while the asset earns for your business.
+
+> From delivery fleets to industrial machinery, we help Lagos businesses acquire the assets they need without disrupting cash flow.
+
+## What You Can Finance with Swiftbanq
+- Vehicles and delivery fleets.
+- Office equipment, laptops, and IT infrastructure.
+- Industrial and manufacturing machinery.
+- Commercial building acquisition for growing businesses.
+
+Businesses researching equipment financing options can also review [SMEDAN's](https://smedan.gov.ng/) resources on capital investment for small and medium enterprises to understand broader financing best practices in Nigeria.
+
+## Get the Equipment Your Business Needs
+Stop letting equipment costs hold your business back. [Apply for Asset Financing](/apply) with Swiftbanq today, based right here in Victoria Island, Lagos.
+
+- **Call or WhatsApp:** 07086429380
+- **Email:** enquiries@swiftbanq.com
+- **Visit us:** 6, Babatunde Jose Street, Off Ademola Adetokunbo V.I, Lagos, Nigeria
+
+Want to talk through your options first? [Contact our team](/contact) today.
+    `,
+    coverImage: '/images/asset-finance-car.jpg',
+    date: '2026-06-12',
+    readTime: '5 min read',
+    category: 'Asset Financing'
+  },
 ];

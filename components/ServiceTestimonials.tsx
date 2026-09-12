@@ -45,7 +45,7 @@ export function ServiceTestimonials({ testimonials }: ServiceTestimonialsProps) 
           >
             {testimonials.map((t, i) => (
               <div key={i} className="w-full shrink-0 flex flex-col items-center text-center min-h-[220px] sm:min-h-[180px]">
-                <p className="text-xl md:text-2xl font-medium text-brand-dark leading-relaxed mb-8 text-left sm:text-center">
+                <p className="text-2xl md:text-3xl font-medium text-brand-dark leading-relaxed mb-8 text-left sm:text-center">
                   {t.quote}
                 </p>
                 <div>

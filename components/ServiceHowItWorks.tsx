@@ -37,23 +37,20 @@ export function ServiceHowItWorks({ steps, title, howItWorksTitle }: ServiceHowI
 
                 {/* Vertical connector line — mobile & sm only, between steps */}
                 {idx < steps.length - 1 && (
-                  <div className="lg:hidden absolute left-10 top-20 bottom-0 w-0.5 bg-brand-yellow z-0" />
+                  <div className="lg:hidden absolute left-7 top-14 bottom-0 w-0.5 bg-brand-yellow z-0" />
                 )}
 
                 {/* Circle */}
-                <div className="relative z-10 w-20 h-20 rounded-full bg-brand-yellow flex items-center justify-center flex-shrink-0 ring-4 ring-brand-cream mb-0 lg:mb-6 mr-6 lg:mr-0">
-                  <span className="text-brand-dark font-black text-2xl">{idx + 1}</span>
+                <div className="relative z-10 w-14 h-14 rounded-full bg-brand-yellow flex items-center justify-center flex-shrink-0 ring-4 ring-brand-cream mb-0 lg:mb-6 mr-6 lg:mr-0">
+                  <span className="text-brand-dark font-black text-lg">{idx + 1}</span>
                 </div>
 
                 {/* Content */}
                 <div className="flex-1 pb-10 lg:pb-0">
-                  <div className="text-xs font-bold uppercase tracking-widest text-brand-dark mb-2 mt-1 lg:mt-0">
-                    Step {idx + 1}
-                  </div>
-                  <h3 className="text-xl font-black text-brand-dark mb-3 leading-tight">
+                  <h3 className="text-xl font-black text-brand-dark mb-3 leading-tight mt-1 lg:mt-0">
                     {step.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed text-sm">
+                  <p className="text-gray-600 leading-relaxed text-base">
                     {step.description}
                   </p>
                 </div>

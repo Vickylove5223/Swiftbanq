@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { ShieldCheck, Zap, Clock, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 import { ApplyNowButton } from '@/components/ApplyNowButton';
 
 interface MockTag {
@@ -17,9 +17,12 @@ interface ServiceHeroProps {
   image: string;
   mockLabel?: string;
   mockTags?: MockTag[];
+  whatIsTitle?: string;
+  whatIsDescription?: string;
+  whoCanApply?: string;
 }
 
-export function ServiceHero({ title, subtitle, image, mockLabel, mockTags }: ServiceHeroProps) {
+export function ServiceHero({ title, subtitle, image, mockLabel, mockTags, whatIsTitle, whatIsDescription, whoCanApply }: ServiceHeroProps) {
   return (
     <>
     <section className="w-full text-brand-dark pt-28 md:pt-36 lg:pt-40 pb-0 bg-brand-dark overflow-hidden">
@@ -101,28 +104,35 @@ export function ServiceHero({ title, subtitle, image, mockLabel, mockTags }: Ser
       </div>
     </section>
 
-    {/* Trust Badges */}
-    <section className="w-full bg-white py-12 border-b border-gray-200/60">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap justify-center gap-8 md:gap-16">
-          <div className="flex flex-col items-center gap-2">
-            <Zap className="w-6 h-6 text-brand-dark" />
-            <div className="text-sm font-bold uppercase tracking-wider text-brand-dark">Fast Approval</div>
-            <div className="text-xs text-gray-500">Decisions in minutes</div>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <ShieldCheck className="w-6 h-6 text-brand-dark" />
-            <div className="text-sm font-bold uppercase tracking-wider text-brand-dark">Secure Process</div>
-            <div className="text-xs text-gray-500">Bank-level encryption</div>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Clock className="w-6 h-6 text-brand-dark" />
-            <div className="text-sm font-bold uppercase tracking-wider text-brand-dark">Flexible Terms</div>
-            <div className="text-xs text-gray-500">Tailored to your needs</div>
+    {/* What is this product? */}
+    {whatIsTitle && whatIsDescription && (
+      <section className="w-full bg-white pt-16 pb-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-[2rem] p-8 md:p-12 grid md:grid-cols-[auto_1fr] gap-8 md:gap-12 items-center">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border border-brand-dark/20 mx-auto md:mx-0 shrink-0">
+              <Image src={image} alt={whatIsTitle} fill className="object-cover" />
+            </div>
+            <div>
+              <span className="inline-flex items-center px-4 py-1.5 rounded-full border border-black text-sm font-medium tracking-wide text-black uppercase mb-4">
+                Good to know
+              </span>
+              <h2 className="text-2xl md:text-3xl font-heading font-black text-brand-dark mb-4">
+                {whatIsTitle}
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                {whatIsDescription}
+              </p>
+              {whoCanApply && (
+                <div className="mt-6 pt-6 border-t border-gray-200">
+                  <h3 className="text-sm font-black uppercase tracking-widest text-brand-dark mb-2">Who can apply?</h3>
+                  <p className="text-base text-gray-600 leading-relaxed">{whoCanApply}</p>
+                </div>
+              )}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    )}
     </>
   );
 }

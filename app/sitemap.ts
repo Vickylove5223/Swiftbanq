@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { guidesData } from '@/lib/guidesData';
+import { services } from '@/lib/services';
 
 const baseUrl = 'https://swiftbanq.com';
 
@@ -9,10 +10,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const legalLastMod = new Date('2026-06-01');
 
   const guideEntries: MetadataRoute.Sitemap = guidesData.map((guide) => ({
-    url: `${baseUrl}/guides/${guide.slug}`,
+    url: `${baseUrl}/blog/${guide.slug}`,
     lastModified: new Date(guide.date),
     changeFrequency: 'monthly',
     priority: 0.7,
+  }));
+
+  const productEntries: MetadataRoute.Sitemap = services.map((service) => ({
+    url: `${baseUrl}/products/${service.slug}`,
+    lastModified: coreLastMod,
+    changeFrequency: 'monthly',
+    priority: 0.8,
   }));
 
   return [
@@ -41,11 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/guides`,
+      url: `${baseUrl}/blog`,
       lastModified: guideLastMod,
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    ...productEntries,
     ...guideEntries,
     {
       url: `${baseUrl}/privacy-policy`,

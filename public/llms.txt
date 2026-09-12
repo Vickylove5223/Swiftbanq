@@ -8,7 +8,7 @@ Swiftbanq Credit Solutions is a Lagos-based Non-Bank Financial Institution offer
 - About: https://swiftbanq.com/about
 - Apply: https://swiftbanq.com/apply
 - Contact: https://swiftbanq.com/contact
-- Guides: https://swiftbanq.com/guides
+- Guides: https://swiftbanq.com/blog
 - Sitemap: https://swiftbanq.com/sitemap.xml
 - Robots: https://swiftbanq.com/robots.txt
 

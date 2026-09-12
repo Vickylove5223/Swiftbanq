@@ -9,6 +9,9 @@ export type ServiceData = {
   heroMockLabel?: string;
   heroMockTags?: { label: string; icon?: string; active?: boolean }[];
   title: string;
+  whatIsTitle?: string;
+  whatIsDescription?: string;
+  whoCanApply?: string;
   howItWorksTitle?: string;
   subServicesTitle?: string;
   benefits: {
@@ -45,6 +48,7 @@ export const services: ServiceData[] = [
       { title: 'Salary Advance', description: 'Access a portion of your next paycheck before payday to handle urgent needs.' },
       { title: 'Working Capital', description: 'Keep your business running smoothly with flexible short-term working capital.' },
       { title: 'Payroll Support', description: 'Ensure you never miss payroll, we fund your staff salaries when cash flow is tight.' },
+      { title: 'Rent Advance', description: 'Cover your annual rent upfront and repay conveniently over time without draining your savings.' },
     ],
     heroTitle: 'Get Fast Personal & SME Loans',
     heroSubtitle: 'With Swiftbanq, you can access immediate flexible capital, so you can meet personal needs or keep your business moving quickly while you wait.',
@@ -56,8 +60,12 @@ export const services: ServiceData[] = [
       { label: 'Salary Advance', icon: '💸' },
       { label: 'Working Capital', icon: '💼' },
       { label: 'Payroll Support', icon: '👥' },
+      { label: 'Rent Advance', icon: '🏠' },
     ],
     title: 'Swiftbanq Personal/SME Loans, unlock flexible capital fast.',
+    whatIsTitle: "What's a Personal or SME loan?",
+    whatIsDescription: "It's your ticket to tackling everyday challenges and grabbing new opportunities. We offer a range of personal and business loan options to keep you moving, whether it's an emergency expense, school fees, or working capital to keep your business running smoothly. Whatever the need, we've got a loan for that.",
+    whoCanApply: 'Nigerian residents with a steady income, whether salaried or self-employed, and registered SMEs with at least 6 months of operating history.',
     howItWorksTitle: 'Our Personal & SME Loan Process',
     subServicesTitle: 'Explore what we offer under Personal & SME Loans',
     benefits: [
@@ -140,6 +148,9 @@ export const services: ServiceData[] = [
       { label: 'Oil & Gas Contracts', icon: '⛽' },
     ],
     title: 'Our LPO Financing Process',
+    whatIsTitle: "What's LPO financing?",
+    whatIsDescription: "It's the funding that keeps your supply contracts moving. Win a Local Purchase Order but short on the capital to fulfil it? We advance the funds you need to execute government, corporate, or oil & gas supply contracts without missing a deadline.",
+    whoCanApply: 'SMEs and contractors with a verified Local Purchase Order or supply contract from a corporate, government, or oil & gas buyer.',
     howItWorksTitle: 'Our LPO Financing Process',
     subServicesTitle: 'Explore what we offer under LPO Financing',
     benefits: [
@@ -222,6 +233,9 @@ export const services: ServiceData[] = [
       { label: 'Industrial Machinery', icon: '🏭' },
     ],
     title: 'Swiftbanq Asset Financing, unlock the equipment you need fast.',
+    whatIsTitle: "What's asset financing?",
+    whatIsDescription: "It's a smarter way to acquire the vehicles, equipment, or property your business needs without draining your cash reserves. We spread the cost over time so the asset gets straight to work for you while you repay in manageable instalments.",
+    whoCanApply: 'Registered businesses and individuals looking to acquire vehicles, equipment, or property for personal or business use.',
     howItWorksTitle: 'Our Asset Financing Process',
     subServicesTitle: 'Explore what we offer under Asset Financing',    benefits: [
       {
@@ -301,6 +315,9 @@ export const services: ServiceData[] = [
       { label: 'Govt Parastatals', icon: '🏛️' },
     ],
     title: 'Swiftbanq invoice discounting, unlock cash tied up in unpaid invoices fast.',
+    whatIsTitle: "What's invoice discounting?",
+    whatIsDescription: "It's how you turn unpaid invoices into immediate cash. Instead of waiting 30, 60, or 90 days for your customers to pay, we advance you a percentage of the invoice value right away, so your working capital never has to wait.",
+    whoCanApply: 'Businesses with outstanding invoices from creditworthy corporate or government clients.',
     howItWorksTitle: 'Our Invoice Discounting Process',
     subServicesTitle: 'Explore what we offer under Invoice Discounting',
     benefits: [
@@ -375,6 +392,9 @@ export const services: ServiceData[] = [
     heroSubtitle: 'Swiftbanq offers pre-vetted, low-to-medium-risk investment opportunities with competitive returns to help you grow your wealth.',
     heroImage: '/images/home-business-men.jpg',
     title: 'Swiftbanq Investments, secure your financial future today.',
+    whatIsTitle: "What's a Swiftbanq investment?",
+    whatIsDescription: "It's a simple way to put your idle funds to work. Choose from pre-vetted, low-to-medium-risk plans built for the modern economy and earn competitive returns of up to 20% per annum, all clearly communicated upfront.",
+    whoCanApply: 'Individuals and businesses in Nigeria with at least ₦100,000 ready to invest.',
     howItWorksTitle: 'Our Investment Process',
     subServicesTitle: 'Explore what we offer under Investments',
     benefits: [

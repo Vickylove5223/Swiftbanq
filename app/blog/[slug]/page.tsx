@@ -40,19 +40,25 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 // Extremely basic markdown to HTML converter for the mock data
 function renderContent(markdown: string) {
   let html = markdown
+    .replace(/^#### (.*$)/gim, '<h4 class="text-xl font-bold text-brand-dark mt-6 mb-3">$1</h4>')
     .replace(/^### (.*$)/gim, '<h3 class="text-2xl font-bold text-brand-dark mt-8 mb-4">$1</h3>')
     .replace(/^## (.*$)/gim, '<h2 class="text-3xl font-bold text-brand-dark mt-10 mb-6">$1</h2>')
-    .replace(/^\*\*([^]*?)\*\*/gim, '<strong>$1</strong>')
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/gim, '<img src="$2" alt="$1" loading="lazy" class="w-full h-64 md:h-96 object-cover rounded-3xl my-10" />')
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/gim, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-brand-dark underline decoration-brand-yellow decoration-2 underline-offset-2 hover:text-brand-yellow font-semibold">$1</a>')
+    .replace(/\[([^\]]+)\]\((\/[^)]+)\)/gim, '<a href="$2" class="text-brand-dark underline decoration-brand-yellow decoration-2 underline-offset-2 hover:text-brand-yellow font-semibold">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/gim, '<strong>$1</strong>')
+    .replace(/^> (.*$)/gim, '<blockquote class="bg-brand-yellow/10 border-l-4 border-brand-yellow rounded-r-2xl p-6 my-8 text-brand-dark font-medium text-xl leading-relaxed">$1</blockquote>')
     .replace(/^\- (.*$)/gim, '<li class="ml-4 mb-2 list-disc">$1</li>')
+    .replace(/<\/li>\n<li/g, '</li><li') // join consecutive list items onto one line
     .replace(/\n\n/g, '<br/>')
     .replace(/<br\/>(<li)/g, '$1') // cleanup lists
     .replace(/(<li.*<\/li>)/gim, '<ul class="mb-6">$1</ul>')
     .replace(/<\/ul><ul class="mb-6">/g, ''); // merge adjacent uls
-  
+
   // Wrap stray paragraphs
   html = html.split('<br/>').map(p => {
     p = p.trim();
-    if (p && !p.startsWith('<h') && !p.startsWith('<ul')) {
+    if (p && !p.startsWith('<h') && !p.startsWith('<ul') && !p.startsWith('<img') && !p.startsWith('<blockquote')) {
       return `<p class="mb-6 text-lg text-gray-600 leading-relaxed">${p}</p>`;
     }
     return p;
@@ -96,7 +102,7 @@ export default async function GuidePostPage({ params }: { params: Promise<{ slug
         </header>
 
         {/* Cover Image */}
-        <div className="relative h-[400px] md:h-[500px] w-full rounded-3xl overflow-hidden mb-16 shadow-lg">
+        <div className="relative h-[400px] md:h-[500px] w-full rounded-3xl overflow-hidden mb-16">
           <Image 
             src={guide.coverImage} 
             alt={guide.title} 

@@ -23,7 +23,7 @@ function CardVisual({ idx, icon: Icon }: { idx: number; icon: React.ElementType 
   }
   if (idx === 1) {
     return (
-      <div className="mb-12 h-32 flex items-center justify-center relative">
+      <div className="mb-12 h-32 flex items-center justify-end relative">
         <div className="w-20 h-20 bg-brand-yellow rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
           <Icon className="w-10 h-10 text-brand-dark" />
         </div>
@@ -31,11 +31,11 @@ function CardVisual({ idx, icon: Icon }: { idx: number; icon: React.ElementType 
     );
   }
   return (
-    <div className="mb-12 h-32 relative flex items-center">
+    <div className="mb-12 h-32 relative flex items-center justify-end">
       <div className="flex -space-x-4 ml-4 group-hover:space-x-0 transition-all duration-300">
-        <div className="w-16 h-16 rounded-full bg-white/10 border-4 border-[#1a1a2e] z-30" />
-        <div className="w-16 h-16 rounded-full bg-white/5 border-4 border-[#1a1a2e] z-20" />
-        <div className="w-16 h-16 rounded-full bg-brand-yellow border-4 border-[#1a1a2e] z-10" />
+        <div className="w-16 h-16 rounded-full bg-[#4a4a4a] border-4 border-[#2a2a2a] z-30" />
+        <div className="w-16 h-16 rounded-full bg-[#3a3a3a] border-4 border-[#2a2a2a] z-20" />
+        <div className="w-16 h-16 rounded-full bg-brand-yellow border-4 border-[#2a2a2a] z-10" />
       </div>
     </div>
   );
@@ -51,7 +51,7 @@ export function ServiceBenefits({ benefits }: ServiceBenefitsProps) {
           <h2 className="text-5xl md:text-6xl font-heading font-black text-white tracking-tight max-w-xl leading-[1.05]">
             Why people keep choosing us
           </h2>
-          <p className="text-gray-400 text-lg max-w-sm leading-relaxed">
+          <p className="text-gray-300 text-lg max-w-sm leading-relaxed">
             No hidden charges, no complex deductions. Everything clearly communicated upfront.
           </p>
         </div>
@@ -66,7 +66,7 @@ export function ServiceBenefits({ benefits }: ServiceBenefitsProps) {
               <CardVisual idx={idx} icon={benefit.icon} />
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-white">{benefit.title}</h3>
-                <p className="text-gray-400 text-lg leading-relaxed">{benefit.description}</p>
+                <p className="text-gray-300 text-lg leading-relaxed">{benefit.description}</p>
               </div>
             </div>
           ))}
