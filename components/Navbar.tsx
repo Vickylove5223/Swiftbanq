@@ -104,7 +104,7 @@ export function Navbar() {
 
             <Link href="/about" className={linkClass}>About Us</Link>
 
-            <Link href="/blog" className={linkClass}>Our Blog</Link>
+            <Link href="/contact" className={linkClass}>Contact Us</Link>
 
             {/* Resources Dropdown */}
             <div className="relative group">
@@ -135,7 +135,7 @@ export function Navbar() {
               </div>
             </div>
 
-            <Link href="/contact" className={linkClass}>Contact Us</Link>
+            <Link href="/blog" className={linkClass}>Our Blog</Link>
           </div>
 
           <div className="hidden md:flex items-center">
@@ -177,12 +177,12 @@ export function Navbar() {
                 ))}
               </div>
               <Link onClick={() => setIsOpen(false)} href="/about" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">About Us</Link>
-              <Link onClick={() => setIsOpen(false)} href="/blog" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Our Blog</Link>
+              <Link onClick={() => setIsOpen(false)} href="/contact" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Contact Us</Link>
               <Link onClick={() => setIsOpen(false)} href="/privacy-policy" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Privacy Policy</Link>
               <Link onClick={() => setIsOpen(false)} href="/cookie-policy" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Cookie Policy</Link>
               <Link onClick={() => setIsOpen(false)} href="/data-protection" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Data Protection</Link>
               <Link onClick={() => setIsOpen(false)} href="/complaints-policy" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Complaints Policy</Link>
-              <Link onClick={() => setIsOpen(false)} href="/contact" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Contact Us</Link>
+              <Link onClick={() => setIsOpen(false)} href="/blog" className="block px-4 py-3 text-lg font-medium text-gray-700 hover:text-[#103623] hover:bg-white/50 rounded-xl">Our Blog</Link>
               <button
                 onClick={() => { setIsOpen(false); setIsApplyModalOpen(true); }}
                 className="flex items-center justify-center gap-2 px-4 py-4 text-base font-bold text-black bg-brand-yellow hover:bg-brand-yellow/90 transition-colors rounded-full mt-6 w-full"

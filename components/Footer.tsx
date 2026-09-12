@@ -116,18 +116,18 @@ export function Footer() {
             </nav>
           </div>
 
-          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center py-10 gap-6 border-t border-brand-cream/10">
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center pt-10 pb-4 gap-6 border-t border-brand-cream/10">
             <p className="text-brand-cream/80 text-sm font-medium">
               Copyright &copy; {new Date().getFullYear()} Swiftbanq Credit Solutions. All rights reserved.
             </p>
           </div>
 
-          <div className="pt-10 text-xs text-brand-cream/50 space-y-4 leading-[1.8] font-medium max-w-6xl">
-            <p>
-              Loans and financing options are subject to approval, terms, and conditions. Interest rates and repayment structures may vary based on creditworthiness, market conditions, and regulatory guidelines.
-            </p>
+          <div className="pt-10 text-sm text-brand-cream/50 space-y-4 leading-[1.8] font-medium max-w-6xl">
             <p>
               Swiftbanq Credit Solutions is a duly licensed money lending institution operating under the regulatory framework of the Lagos State Money Lenders Law. We are not a deposit-taking commercial bank, but a financial partner empowering growth through accessible credit and structured investment.
+            </p>
+            <p>
+              Loans and financing options are subject to approval, terms, and conditions. Interest rates and repayment structures may vary based on creditworthiness, market conditions, and regulatory guidelines.
             </p>
           </div>
         </div>
